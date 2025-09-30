@@ -1,0 +1,58 @@
+#> core:reset
+# 
+# reset function
+#
+# @public
+
+scoreboard players reset * stats
+scoreboard players reset * temporary
+
+scoreboard players reset * timer.system
+scoreboard players reset * timer.afk
+scoreboard players reset * timer.iron_horse_armor
+
+scoreboard players reset * item.bandage
+scoreboard players reset * item.escape
+scoreboard players reset * item.emerald
+scoreboard players reset * item.stung
+
+scoreboard players reset * dropped.amulet
+scoreboard players reset * dropped.bandage
+scoreboard players reset * dropped.crystall_ball
+scoreboard players reset * dropped.dead_report
+scoreboard players reset * dropped.detonator
+
+scoreboard players reset * used.lingering
+scoreboard players reset * used.potion
+scoreboard players reset * used.splash
+
+scoreboard players set $Limit timer.afk 60
+
+team join player @a
+
+tag @a remove temp
+
+tag @a remove role.Murder
+tag @a remove role.Witness
+tag @a remove role.Innocent
+tag @a remove role.Detective
+
+tag @a remove player.Spectator
+tag @a remove player.Dead
+tag @a remove player.Attacked
+tag @a remove player.Escaped
+tag @a remove player.CanBuyBow
+tag @a remove player.HasTotem
+tag @a remove player.HasIronHorseArmor
+tag @a remove player.AFK
+tag @a remove player.Bombed
+
+kill @e[type=armor_stand, tag=as.DeadBody]
+
+execute as @e[tag=as.Exit] at @s run setblock ~ ~ ~ air replace
+
+tag @e[tag=as.Exit] remove as.Exit
+
+effect clear @a
+
+tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]
