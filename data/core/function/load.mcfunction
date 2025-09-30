@@ -11,8 +11,10 @@ scoreboard objectives add temporary dummy
 scoreboard objectives add timer.system dummy
 scoreboard objectives add timer.afk dummy
 scoreboard objectives add timer.iron_horse_armor dummy
+scoreboard objectives add timer.bomb dummy
+scoreboard objectives add timer.totem dummy
 
-scoreboard objectives add item.stung dummy
+scoreboard objectives add player.stung dummy
 scoreboard objectives add item.bandage dummy
 scoreboard objectives add item.emerald dummy
 scoreboard objectives add item.escape dummy
@@ -32,5 +34,16 @@ scoreboard players set $Limit timer.afk 60
 team add player
 team modify player prefix "\u00A77"
 team modify player nametagVisibility never
+
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+gamerule showDeathMessages false
+gamerule doImmediateRespawn true
+gamerule keepInventory true
+gamerule fallDamage false
+gamerule commandBlockOutput false
+gamerule announceAdvancements false
+gamerule mobGriefing false
+gamerule doMobSpawning false
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"読み込みが完了しました", "color":"yellow"}]

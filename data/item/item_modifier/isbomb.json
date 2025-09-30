@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "IsBomb": true
+    },
+    "minecraft:enchantment_glint_override": true
+  },
+  "conditions": []
+}

@@ -10,11 +10,13 @@ scoreboard players reset * temporary
 scoreboard players reset * timer.system
 scoreboard players reset * timer.afk
 scoreboard players reset * timer.iron_horse_armor
+scoreboard players reset * timer.bomb
+scoreboard players reset * timer.totem
 
 scoreboard players reset * item.bandage
 scoreboard players reset * item.escape
 scoreboard players reset * item.emerald
-scoreboard players reset * item.stung
+scoreboard players reset * player.stung
 
 scoreboard players reset * dropped.amulet
 scoreboard players reset * dropped.bandage
@@ -30,7 +32,7 @@ scoreboard players set $Limit timer.afk 60
 
 team join player @a
 
-tag @a remove temp
+tag @a remove game.Temporary
 
 tag @a remove role.Murder
 tag @a remove role.Witness

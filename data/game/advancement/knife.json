@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_sword"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "game:adv/knife"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "slots": {
+              "container.*": {
+                "items": "minecraft:firework_star"
+              },
+              "weapon.mainhand": {
+                "items": "minecraft:air"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "game:adv/bomb"
+  }
+}
