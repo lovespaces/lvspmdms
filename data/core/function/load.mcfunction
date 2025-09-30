@@ -27,6 +27,8 @@ scoreboard objectives add used.potion used:minecraft.potion
 scoreboard objectives add used.splash used:minecraft.splash_potion
 scoreboard objectives add used.lingering used:minecraft.lingering_potion
 
+scoreboard players set $Limit timer.afk 60
+
 team add player
 team modify player prefix "\u00A77"
 team modify player nametagVisibility never
