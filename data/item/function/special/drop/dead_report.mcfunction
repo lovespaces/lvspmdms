@@ -12,4 +12,4 @@ playsound entity.enderman.teleport master @s ~ ~ ~
 
 function log:used {"item": "死亡記録票"}
 tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"white","text":"死亡者は以下の通りです。"}]
-tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"gray","selector":"@a[tag=dead]","separator":" , "}]
+tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"gray","selector":"@a[tag=player.Dead]","separator":" , "}]

@@ -5,13 +5,12 @@
 # @handles #minecraft:load
 
 scoreboard objectives add stats dummy
-
 scoreboard objectives add temporary dummy
 
 scoreboard objectives add timer.system dummy
+scoreboard objectives add timer.give_item dummy
 scoreboard objectives add timer.afk dummy
 scoreboard objectives add timer.iron_horse_armor dummy
-scoreboard objectives add timer.bomb dummy
 scoreboard objectives add timer.totem dummy
 
 scoreboard objectives add player.stung dummy
@@ -31,9 +30,17 @@ scoreboard objectives add used.lingering used:minecraft.lingering_potion
 
 scoreboard players set $Limit timer.afk 60
 
-team add player
-team modify player prefix "\u00A77"
-team modify player nametagVisibility never
+team add murder
+team add detective
+team add witness
+team add innocent
+team add nothing
+
+team modify murder nametagVisibility never
+team modify detective nametagVisibility never
+team modify witness nametagVisibility never
+team modify innocent nametagVisibility never
+team modify nothing friendlyFire true
 
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false

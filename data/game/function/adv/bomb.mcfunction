@@ -22,4 +22,4 @@ function log:attacked {"weapon": "遠隔小型爆弾"}
 execute on attacker run tag @s remove player.Attacked
 
 execute on attacker run clear @s redstone_torch
-scoreboard players set $Switch timer.bomb 20
+scoreboard players set $Switch timer.system 20

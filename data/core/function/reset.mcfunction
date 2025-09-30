@@ -8,9 +8,9 @@ scoreboard players reset * stats
 scoreboard players reset * temporary
 
 scoreboard players reset * timer.system
+scoreboard players reset * timer.give_item
 scoreboard players reset * timer.afk
 scoreboard players reset * timer.iron_horse_armor
-scoreboard players reset * timer.bomb
 scoreboard players reset * timer.totem
 
 scoreboard players reset * item.bandage
@@ -30,7 +30,7 @@ scoreboard players reset * used.splash
 
 scoreboard players set $Limit timer.afk 60
 
-team join player @a
+team join nothing @a
 
 tag @a remove game.Temporary
 
@@ -44,7 +44,6 @@ tag @a remove player.Dead
 tag @a remove player.Attacked
 tag @a remove player.Escaped
 tag @a remove player.CanBuyBow
-tag @a remove player.HasTotem
 tag @a remove player.HasIronHorseArmor
 tag @a remove player.AFK
 tag @a remove player.Bombed

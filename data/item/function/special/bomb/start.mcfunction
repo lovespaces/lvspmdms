@@ -4,7 +4,7 @@ scoreboard players reset @s dropped.detonator
 
 kill @e[sort=nearest, type=item, limit=1]
 
-scoreboard players set $Bomb timer.bomb 5
+scoreboard players set $Bomb timer.system 5
 
 execute as @a at @s run playsound entity.tnt.primed master @a ~ ~ ~
 

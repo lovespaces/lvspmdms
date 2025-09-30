@@ -15,5 +15,3 @@ execute on attacker run tellraw @s [{"color": "red", "text":"[ラブスペ人狼
 function log:used {"item": "神秘的なお守り"}
 
 scoreboard players set @s timer.totem 2
-
-tag @s add player.HasTotem

@@ -4,7 +4,7 @@
 #
 # @within item:special/
 
-scoreboard players reset @s ender_eye
+scoreboard players reset @s dropped.crystall_ball
 execute if entity @s[tag=player.HasIronHorseArmor] run return 0
 kill @e[type=item, sort=nearest]
 clear @s ender_eye

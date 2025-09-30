@@ -6,4 +6,4 @@
 
 scoreboard players add $Tick timer.system 1
 
-execute if score $Tick timer.system matches 20 run function mdms:timer/update
+execute if score $Tick timer.system matches 20 run function timer:update/
