@@ -6,4 +6,5 @@
 
 function item:
 function timer:
+function game:player/
 function game:afk/

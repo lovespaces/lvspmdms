@@ -1,4 +1,4 @@
-#> timer:update/player/give/murder
+#> timer:update/player/give/detective
 #
 # @within timer:update/player/check
 
@@ -6,6 +6,6 @@ scoreboard players remove @s timer.give_item 1
 
 execute unless score @s timer.give_item matches ..0 run return 0
 
-function timer:update/player/give/detective
+function role:detective/give
 
 scoreboard players reset @s timer.give_item

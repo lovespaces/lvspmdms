@@ -5,21 +5,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.emerald"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:glistering_melon_slice",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -32,7 +19,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:disc_fragment_5",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -45,7 +32,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -58,7 +45,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -71,7 +58,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -84,7 +71,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -97,20 +84,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:magma_cream",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.magma_cream"
-              }
-            }
-          ]
+          "weight": 1,
+          "functions": []
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -123,7 +103,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -136,7 +116,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:prismarine_crystals",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -149,7 +129,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -162,155 +142,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "translate": "item.minecraft.ghast_tear"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:waxed_exposed_cut_copper_stairs",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "block.minecraft.waxed_exposed_cut_copper_stairs"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.poisonous_potato"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:skeleton_skull",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "block.minecraft.skeleton_skull"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone_meal",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.bone_meal"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ominous_trial_key",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.ominous_trial_key"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.brick"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:orange_dye",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.orange_dye"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.nautilus_shell"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.clay_ball"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:kelp",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "block.minecraft.kelp"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:apple",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.apple"
               }
             }
           ]

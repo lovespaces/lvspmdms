@@ -13,8 +13,7 @@ execute on attacker run tag @s add player.Attacked
 function log:attacked {"weapon": "弓"}
 execute on attacker run tag @s remove player.Attacked
 
-execute if entity @s[tag=player.HasIronHorseArmor] run return 0
-# function check iron horse
+execute if entity @s[tag=player.HasIronHorseArmor] run function item:special/drop/amulet/iron_horse/
 
 function game:player/dead
 
@@ -24,5 +23,4 @@ function log:mistake
 
 scoreboard players add $Mistake stats 1
 
-execute on attacker run return 0
-# mistake detective
+execute on attacker run function role:detective/mistake
