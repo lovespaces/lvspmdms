@@ -6,8 +6,7 @@ execute if score @s timer.iron_horse_armor matches 0.. run function timer:update
 
 execute if score $Phase stats matches 1.. if score $Seconds timer.system matches ..0 as @s[tag=!player.AFK] run function item:emerald/
 
-execute unless score @s timer.give_item matches ..0 run return 0
+execute unless score @s timer.give_item matches 0.. run return 0
 
-execute if predicate role:is_murderer run return 0
-execute if predicate role:is_detective run return 0
-# interval give their weapon
+execute if predicate role:is_murderer run function timer:update/player/give/murder
+execute if predicate role:is_can_buy_bow run function timer:update/player/give/detective

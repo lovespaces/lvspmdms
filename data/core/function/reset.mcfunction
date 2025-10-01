@@ -34,11 +34,6 @@ team join nothing @a
 
 tag @a remove game.Temporary
 
-tag @a remove role.Murder
-tag @a remove role.Witness
-tag @a remove role.Innocent
-tag @a remove role.Detective
-
 tag @a remove player.Spectator
 tag @a remove player.Dead
 tag @a remove player.Attacked
