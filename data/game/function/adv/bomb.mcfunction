@@ -7,7 +7,8 @@
 advancement revoke @s only game:bomb
 execute on attacker run clear @s firework_star
 
-execute on attacker if score $Bomb timer.bomb matches 0.. run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"起爆処理中です。利用できません。", "color":"white"}]
+execute on attacker if score $Bombed stats matches 2.. run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"二人以上の市民に爆弾を仕掛けることはできません。", "color":"white"}]
+execute on attacker if score $Bomb timer.system matches 0.. run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"起爆処理中です。利用できません。", "color":"white"}]
 execute if entity @s[tag=player.Bombed] on attacker run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"すでに爆弾を仕込んでいます。", "color":"white"}]
 
 execute store result storage lovespaces:mdms bomb byte 1 run random value 9..35

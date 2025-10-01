@@ -1,4 +1,6 @@
 #> timer:update/player/check
+#
+# @within timer:update/
 
 execute if score @s timer.totem matches 0.. run function timer:update/item/totem
 

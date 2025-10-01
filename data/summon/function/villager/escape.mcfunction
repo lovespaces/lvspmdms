@@ -1,0 +1,7 @@
+#> summon:villager/escape
+#
+# we use villager.EscapeItems
+#
+# @public
+
+summon villager ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,NoAI:1b,Tags:["shop","villager.EscapeItems"],CustomName:{"color":"yellow","text":"脱出アイテム"},VillagerData:{profession:"minecraft:librarian"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:glistering_melon_slice",count:1},buyB:{id:"minecraft:disc_fragment_5",count:1},sell:{id:"minecraft:trial_key",count:1}},{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:amethyst_shard",count:1},buyB:{id:"minecraft:slime_ball",count:1},sell:{id:"minecraft:blaze_powder",count:1}},{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:leather",count:1},buyB:{id:"minecraft:string",count:1},sell:{id:"minecraft:nether_brick",count:1}},{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:magma_cream",count:1},buyB:{id:"minecraft:armadillo_scute",count:1},sell:{id:"minecraft:echo_shard",count:1}},{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:phantom_membrane",count:1},buyB:{id:"minecraft:prismarine_crystals",count:1},sell:{id:"minecraft:prismarine_shard",count:1}},{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:nether_wart",count:1},buyB:{id:"minecraft:ghast_tear",count:1},sell:{id:"minecraft:heart_of_the_sea",count:1}}]}}
