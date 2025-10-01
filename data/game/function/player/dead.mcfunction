@@ -35,6 +35,6 @@ execute if score $Players stats matches 2 run function item:escape/detective/eme
 execute if score $Players stats matches 1 run return 0
 # return run win check
 
-execute if predicate role:is_witness run return 0
-execute if predicate role:is_detective run return 0
+execute if predicate role:is_witness run function role:dead/witness
+execute if predicate role:is_detective run function role:dead/detective
 # dead thing haha
