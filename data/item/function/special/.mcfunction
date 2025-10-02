@@ -16,6 +16,4 @@ execute if score @s used.lingering matches 1 run function item:special/potion/li
 
 execute if predicate item:isbomb run return run function item:special/bomb/bomb_item
 
-execute as @s at @s on origin run data modify entity @e[type=item, sort=nearest, limit=1] Owner set from entity @s UUID
-data modify entity @s PickupDelay set value 0s
-execute as @s at @s on origin run tp @e[type=item, sort=nearest, limit=1] @s
+execute as @e[type=item] at @s run function item:special/kill_drop
