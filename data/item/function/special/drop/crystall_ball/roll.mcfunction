@@ -4,6 +4,8 @@
 #
 # @within item:special/
 
+kill @e[type=item, sort=nearest, limit=1]
+
 scoreboard players reset @s dropped.crystall_ball
 execute if entity @s[tag=player.HasIronHorseArmor] run return 0
 kill @e[type=item, sort=nearest]

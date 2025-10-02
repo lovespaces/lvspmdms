@@ -13,4 +13,4 @@ execute if score $Phase stats matches 0 run return run function timer:update/pha
 execute if score $Phase stats matches 3 run return run function timer:update/phase/3
 
 execute if score $Switch timer.system matches 0.. run function timer:update/item/give_switch
-execute if score $Bomb timer.system matches 0.. run function timer:update/item/detonate
+execute if score $Primed timer.system matches 0.. run function timer:update/item/detonate
