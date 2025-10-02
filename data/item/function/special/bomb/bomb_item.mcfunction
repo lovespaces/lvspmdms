@@ -2,7 +2,7 @@
 #
 # bomb disappear from innocent inventory
 #
-# @within 
+# @within item:special/
 
 execute on origin as @s at @s run function item:special/bomb/defuse
 

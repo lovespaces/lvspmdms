@@ -27,14 +27,10 @@ effect clear @s
 
 scoreboard players remove $Players stats 1
 
-execute if predicate role:is_murderer run return 0
-# return run win innocent
+execute if predicate role:is_murderer run return run function game:win/innocent
 
 execute if score $Players stats matches 2 run function item:escape/detective/emergency_pick
-# emergency pick
-execute if score $Players stats matches 1 run return 0
-# return run win check
+execute if score $Players stats matches 1 run return run function game:win/check
 
 execute if predicate role:is_witness run function role:dead/witness
 execute if predicate role:is_detective run function role:dead/detective
-# dead thing haha

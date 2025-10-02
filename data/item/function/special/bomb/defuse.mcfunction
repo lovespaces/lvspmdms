@@ -1,4 +1,6 @@
-#> mdms:item/firework_star/unlock
+#> item:special/bomb/defuse
+#
+# @within item:special/bomb/bomb_item
 
 tag @s remove player.Bombed
 

@@ -1,6 +1,7 @@
 #> summon:villager/special
 #
 # we use villager.SpecialItems
+# メモ: dataコマンドを活用すればupdate.mcfunctionで一括に村人の交易を変えられるかも知れない。革命だ！
 #
 # @public
 

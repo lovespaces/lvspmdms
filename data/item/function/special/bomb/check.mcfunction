@@ -1,4 +1,4 @@
-#> game:player/bomb/check
+#> item:special/bomb/check
 #
 # @within timer:update/item/detonate
 
