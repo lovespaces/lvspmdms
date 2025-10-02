@@ -13,6 +13,5 @@ scoreboard players set @a[team=detective] player.stung 2
 scoreboard players set @a[team=witness] item.bandage 0
 scoreboard players set @a[team=witness] player.stung 0
 
-scoreboard players set $Phase stats 1
+scoreboard players set $Phase stats 0
 scoreboard players set $Escaped stats 0
-scoreboard players set $Seconds timer.system 10

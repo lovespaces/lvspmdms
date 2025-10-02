@@ -17,4 +17,6 @@ function core:set_scoreboard
 function item:escape/set
 function log:escape_items
 
+scoreboard players set $Seconds timer.system 10
+
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"10秒後にゲームが始まります。"}]
