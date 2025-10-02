@@ -6,7 +6,7 @@
 
 tag @s add game.Temporary
 
-function item:emerald/roll
+execute store result score @s item.emerald run random value 0..100
 
 execute if score @s item.emerald matches ..35 run function item:emerald/loot/emerald
 execute if score @s item.emerald matches 36..70 run function item:emerald/loot/keyitem
