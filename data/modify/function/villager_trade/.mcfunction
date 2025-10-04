@@ -1,4 +1,6 @@
 #> modify/villager_trade/update
+#
+# @public
 
 function modify:villager_trade/special_items
 function modify:villager_trade/escape_items
