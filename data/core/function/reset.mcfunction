@@ -51,4 +51,6 @@ tag @e[tag=as.Exit] remove as.Exit
 
 effect clear @a
 
+execute as @a run attribute @s attack_speed base set 1024
+
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]
