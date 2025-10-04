@@ -7,4 +7,4 @@
 function item:
 function timer:
 function game:player/
-function game:afk/
+execute as @a[tag=!player.Spectator] run function game:afk/
