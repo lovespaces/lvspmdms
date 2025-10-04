@@ -14,7 +14,9 @@ gamemode spectator @a[tag=player.Spectator]
 function role:join_team
 function log:role/start
 function core:set_scoreboard
-function item:escape/set
+
+execute as @a[team=innocent] run function item:escape/set
+execute as @a[team=witness] run function item:escape/set
 function log:escape_items
 
 scoreboard players set $Seconds timer.system 10
