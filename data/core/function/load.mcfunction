@@ -16,7 +16,9 @@ scoreboard objectives add timer.totem dummy
 scoreboard objectives add player.stung dummy
 scoreboard objectives add item.bandage dummy
 scoreboard objectives add item.emerald dummy
-scoreboard objectives add item.escape dummy
+
+scoreboard objectives add escape.one dummy
+scoreboard objectives add escape.two dummy
 
 scoreboard objectives add dropped.crystall_ball dropped:ender_eye
 scoreboard objectives add dropped.dead_report dropped:name_tag

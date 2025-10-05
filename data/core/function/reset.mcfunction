@@ -14,9 +14,11 @@ scoreboard players reset * timer.iron_horse_armor
 scoreboard players reset * timer.totem
 
 scoreboard players reset * item.bandage
-scoreboard players reset * item.escape
 scoreboard players reset * item.emerald
 scoreboard players reset * player.stung
+
+scoreboard players reset * escape.one
+scoreboard players reset * escape.two
 
 scoreboard players reset * dropped.amulet
 scoreboard players reset * dropped.bandage
