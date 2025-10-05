@@ -4,6 +4,8 @@
 #
 # @public
 
+execute unless score $Phase stats matches 1..2 run return 0
+
 execute if predicate role:is_murderer run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"役職上、あなたは脱出できません。", "color":"white"}]
 execute if predicate role:is_detective run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"役職上、あなたは脱出できません。", "color":"white"}]
 execute if entity @s[tag=player.HasIronHorseArmor] run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"お守りで守られている状態では脱出できない！", "color":"white"}]

@@ -2,6 +2,7 @@
 #
 # @within game:escape/check
 
-execute if score @s item.escape matches 1 run function game:escape/item/1
-execute if score @s item.escape matches 2 run function game:escape/item/2
-execute if score @s item.escape matches 3 run function game:escape/item/3
+execute store result storage lovespaces:mdms EscapeTemporaryOne float 1 run scoreboard players get @s escape.one
+execute store result storage lovespaces:mdms EscapeTemporaryTwo float 1 run scoreboard players get @s escape.two
+
+function game:escape/item/store with storage lovespaces:mdms
