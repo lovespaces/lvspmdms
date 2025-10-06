@@ -12,6 +12,6 @@ clear @s name_tag
 
 playsound entity.enderman.teleport master @s ~ ~ ~
 
-function log:used {"item": "死亡記録票"}
+function log:used {"item": "インシデント・レポート"}
 tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"white","text":"死亡者は以下の通りです。"}]
 tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"gray","selector":"@a[tag=player.Dead]","separator":" , "}]
