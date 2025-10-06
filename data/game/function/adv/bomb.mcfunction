@@ -11,7 +11,8 @@ execute on attacker if score $Bombed stats matches 2.. run return run tellraw @s
 execute on attacker if score $Bomb timer.system matches 0.. run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"起爆処理中です。利用できません。", "color":"white"}]
 execute if entity @s[tag=player.Bombed] on attacker run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"すでに爆弾を仕込んでいます。", "color":"white"}]
 
-execute store result storage lovespaces:mdms bomb byte 1 run random value 9..35
+# execute store result storage lovespaces:mdms bomb byte 1 run random value 9..35
+# 検討に検討を重ねてみます。
 
 loot give @s loot item:fake_item
 
