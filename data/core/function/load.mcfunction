@@ -30,7 +30,7 @@ scoreboard objectives add used.potion used:minecraft.potion
 scoreboard objectives add used.splash used:minecraft.splash_potion
 scoreboard objectives add used.lingering used:minecraft.lingering_potion
 
-scoreboard players set $Limit timer.afk 60
+scoreboard players set $Limit timer.afk 100
 
 team add murder
 team add detective
