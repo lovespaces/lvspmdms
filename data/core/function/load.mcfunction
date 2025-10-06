@@ -42,7 +42,7 @@ team modify murder nametagVisibility never
 team modify detective nametagVisibility never
 team modify witness nametagVisibility never
 team modify innocent nametagVisibility never
-team modify nothing friendlyFire true
+team modify nothing friendlyFire false
 
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
@@ -54,5 +54,6 @@ gamerule commandBlockOutput false
 gamerule announceAdvancements false
 gamerule mobGriefing false
 gamerule doMobSpawning false
+gamerule locatorBar false
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"読み込みが完了しました", "color":"yellow"}]
