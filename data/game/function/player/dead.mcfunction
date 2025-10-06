@@ -25,12 +25,11 @@ tag @s add player.Dead
 gamemode spectator @s
 effect clear @s
 
-scoreboard players remove $Players stats 1
-
 execute if predicate role:is_murderer run return run function game:win/innocent
 
-execute if score $Players stats matches 2 run function item:escape/detective/emergency_pick
-execute if score $Players stats matches 1 run return run function game:win/check
+function game:player/player_check
+
+execute if score $Phase stats matches 3.. run return 0
 
 execute if predicate role:is_witness run function role:dead/witness
 execute if predicate role:is_detective run function role:dead/detective

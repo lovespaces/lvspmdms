@@ -11,9 +11,7 @@ tag @s add player.Escaped
 
 function log:done_escape
 
-scoreboard players remove $Players stats 1
 scoreboard players add $Escaped stats 1
-execute if score $Players stats matches 2 run function item:escape/detective/emergency_pick
-execute if score $Players stats matches ..1 run function game:win/check
+function game:player/player_check
 
 execute if predicate role:is_witness run function role:dead/witness

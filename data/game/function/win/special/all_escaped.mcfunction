@@ -4,4 +4,4 @@
 
 function game:win/innocent
 
-title @a subtitle {"text":"市民が全員脱出した！"}
+title @a subtitle {"text":"市民が全員脱出した！", "color":"gold"}
