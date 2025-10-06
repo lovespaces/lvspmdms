@@ -46,13 +46,13 @@ tag @a remove player.AFK
 tag @a remove player.Bombed
 
 kill @e[type=armor_stand, tag=as.DeadBody]
+kill @e[type=arrow]
+kill @e[type=item]
 
 execute as @e[tag=as.Exit] at @s run setblock ~ ~ ~ air replace
-
 tag @e[tag=as.Exit] remove as.Exit
 
 effect clear @a
-
 execute as @a run attribute @s attack_speed base set 1024
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]
