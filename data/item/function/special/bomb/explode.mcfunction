@@ -16,10 +16,10 @@ effect give @s instant_damage infinite 4
 
 scoreboard players remove @s player.stung 1
 
+function item:replace with entity @s Inventory[{components:{"minecraft:custom_data": {IsBomb: 1b}}}]
+
 execute if predicate role:is_detective run function role:detective/attacked
 
 tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"インベントリの中に爆弾が隠れていた！", "color": "white"}]
-
 tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"white","text":"あと "},{"color":"yellow","score":{"name":"@s","objective":"player.stung"}},{"color":"white","text":" 回耐えられる。"}]
-
 execute if score @s player.stung matches 0 run tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"あと一回刺されたら死んでしまう。", "color": "white"}]
