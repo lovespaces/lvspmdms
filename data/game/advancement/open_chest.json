@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:tripwire_hook",
+              "components": {
+                "minecraft:custom_data": {
+                  "IsChestKey": true
+                }
+              }
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:ender_chest"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "game:adv/open_chest"
+  }
+}

@@ -1,8 +1,7 @@
 #> item:emerald/give
 #
-# give emerald
+# give uhhh idk something haha
 #
-# @within item:emerald/loot
+# @within item:emerald/roll
 
-$give @a[tag=game.Temporary] $(id) 1
-item replace block ~ ~ ~ container.0 with air
+$give @s tripwire_hook[custom_data={IsChestKey:1b, CanOpen:[$(EnderChestOne), $(EnderChestTwo)]}, custom_name={"color": "gold", "italic": false, "text": "チェストの鍵"}] 1

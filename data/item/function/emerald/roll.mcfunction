@@ -1,7 +1,7 @@
 #> item:emerald/roll
 #
-# @within timer:update/player/check
+# @within timer:update/item/key
 
-execute store result score @s item.emerald run random value 0..100
+$execute store result storage lovespaces:mdms Temporary.EnderChestOne int 1 run random value 1..$(EnderChestCount)
 
-scoreboard players set $Seconds timer.system 5
+$function item:emerald/roll_again {"EnderChestCount": $(EnderChestCount)}

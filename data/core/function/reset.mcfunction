@@ -9,13 +9,15 @@ scoreboard players reset * temporary
 
 scoreboard players reset * timer.system
 scoreboard players reset * timer.give_item
-scoreboard players reset * timer.afk
+scoreboard players reset * timer.give_key
 scoreboard players reset * timer.iron_horse_armor
 scoreboard players reset * timer.totem
 
 scoreboard players reset * item.bandage
 scoreboard players reset * item.emerald
 scoreboard players reset * player.stung
+
+scoreboard players reset * key.number
 
 scoreboard players reset * escape.one
 scoreboard players reset * escape.two
@@ -42,8 +44,8 @@ tag @a remove player.Attacked
 tag @a remove player.Escaped
 tag @a remove player.CanBuyBow
 tag @a remove player.HasIronHorseArmor
-tag @a remove player.AFK
 tag @a remove player.Bombed
+tag @a remove player.LostKey
 
 kill @e[type=armor_stand, tag=as.DeadBody]
 kill @e[type=arrow]

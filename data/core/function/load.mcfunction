@@ -9,13 +9,15 @@ scoreboard objectives add temporary dummy
 
 scoreboard objectives add timer.system dummy
 scoreboard objectives add timer.give_item dummy
-scoreboard objectives add timer.afk dummy
+scoreboard objectives add timer.give_key dummy
 scoreboard objectives add timer.iron_horse_armor dummy
 scoreboard objectives add timer.totem dummy
 
 scoreboard objectives add player.stung dummy
 scoreboard objectives add item.bandage dummy
 scoreboard objectives add item.emerald dummy
+
+scoreboard objectives add key.number dummy
 
 scoreboard objectives add escape.one dummy
 scoreboard objectives add escape.two dummy
