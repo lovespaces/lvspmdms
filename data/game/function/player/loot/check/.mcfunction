@@ -2,6 +2,8 @@
 #
 # @within game:adv/open_chest
 
+execute store result score @s temporary if entity @s[tag=player.LostKey] run return 1
+
 execute store result score EnderChestOne temporary run data get entity @s SelectedItem.components.minecraft:custom_data.CanOpen[0]
 execute store result score EnderChestTwo temporary run data get entity @s SelectedItem.components.minecraft:custom_data.CanOpen[1]
 

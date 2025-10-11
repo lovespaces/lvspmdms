@@ -53,6 +53,7 @@ kill @e[type=item]
 
 execute as @e[tag=as.Exit] at @s run setblock ~ ~ ~ air replace
 tag @e[tag=as.Exit] remove as.Exit
+tag @e[tag=as.EnderChestAdded] remove as.EnderChestAdded
 
 effect clear @a
 execute as @a run attribute @s attack_speed base set 1024

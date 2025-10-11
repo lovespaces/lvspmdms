@@ -15,3 +15,9 @@ scoreboard players set @a[team=witness] player.stung 0
 
 scoreboard players set $Phase stats 0
 scoreboard players set $Escaped stats 0
+
+scoreboard players set $EnderChestID key.number 0
+
+execute store result storage lovespaces:mdms EnderChestCount int 1 if entity @e[tag=as.EnderChest, type=armor_stand]
+
+execute as @e[type=armor_stand, tag=as.EnderChest, sort=random, limit=1] run function modify:armor_stand/ender_chest_set

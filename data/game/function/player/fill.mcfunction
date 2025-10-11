@@ -19,6 +19,8 @@ item replace entity @s enderchest.10 with glass_bottle[item_model="gray_stained_
 item replace entity @s enderchest.11 with glass_bottle[item_model="gray_stained_glass_pane",tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
 item replace entity @s enderchest.12 with glass_bottle[item_model="gray_stained_glass_pane",tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
 
+item replace entity @s enderchest.13 with glass_bottle[item_model="barrier",tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
+
 item replace entity @s enderchest.14 with glass_bottle[item_model="gray_stained_glass_pane",tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
 item replace entity @s enderchest.15 with glass_bottle[item_model="gray_stained_glass_pane",tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
 item replace entity @s enderchest.16 with glass_bottle[item_model="gray_stained_glass_pane",tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
