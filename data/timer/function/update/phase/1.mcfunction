@@ -14,3 +14,7 @@ execute as @a at @s run playsound entity.ender_dragon.growl master @s ~ ~ ~
 
 scoreboard players set $Phase stats 1
 scoreboard players set $Seconds timer.system 5
+
+give @a cooked_beef 10
+difficulty normal
+execute as @a[tag=!player.Spectator] run function item:emerald/roll with storage lovespaces:mdms
