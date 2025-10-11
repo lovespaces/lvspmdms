@@ -13,6 +13,7 @@ tag @s add game.Temporary
 function game:player/loot/check/
 execute if score @s temporary matches 0 run tag @s remove game.Temporary
 execute if score @s temporary matches 0 run return 0
+tag @s remove player.LostKey
 
 clear @s tripwire_hook[custom_model_data={strings:["EnderChestKey"]}]
 function game:player/loot/forfeit
