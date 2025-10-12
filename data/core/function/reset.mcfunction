@@ -57,4 +57,6 @@ effect clear @a
 execute as @a run attribute @s attack_speed base set 1024
 difficulty peaceful
 
+execute as @a run function game:player/clear
+
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]

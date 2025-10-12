@@ -3,6 +3,8 @@
 # @handles game:open_chest
 
 advancement revoke @s only game:open_chest
+
+execute unless score $Phase stats matches 0.. run return run function game:player/clear
 function game:player/fill
 
 # 保険で2マスよりも中に入っているプレイヤーでないと検知できないようにする
