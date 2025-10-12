@@ -1,6 +1,8 @@
 #> item:emerald/roll/
 #
-# @within timer:update/item/key
+# @within
+#   timer:update/item/key
+#   timer:update/phase/1
 
 execute store result storage lovespaces:mdms Temporary.EnderChestCount int 1 run data get storage lovespaces:mdms EnderChestCount
 function item:emerald/roll/first with storage lovespaces:mdms
