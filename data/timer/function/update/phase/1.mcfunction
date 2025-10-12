@@ -17,4 +17,4 @@ scoreboard players set $Seconds timer.system 5
 
 give @a cooked_beef 10
 difficulty normal
-execute as @a[tag=!player.Spectator] run function item:emerald/roll with storage lovespaces:mdms
+execute as @a[tag=!player.Spectator] run function item:emerald/roll/
