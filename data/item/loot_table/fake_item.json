@@ -21,11 +21,5 @@
       ],
       "functions": []
     }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:reference",
-      "name": "item:isbomb"
-    }
   ]
 }

@@ -6,151 +6,57 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glistering_melon_slice",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.glistering_melon_slice"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:disc_fragment_5",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.disc_fragment_5"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.amethyst_shard"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.slime_ball"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.leather"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.string"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:magma_cream",
-          "weight": 1,
-          "functions": []
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:armadillo_scute",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.armadillo_scute"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.phantom_membrane"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:prismarine_crystals",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.prismarine_crystals"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.nether_wart"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.ghast_tear"
-              }
-            }
-          ]
+          "weight": 1
         }
       ]
     }

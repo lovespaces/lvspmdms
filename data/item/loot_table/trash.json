@@ -6,145 +6,57 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:waxed_exposed_cut_copper_stairs",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "block.minecraft.waxed_exposed_cut_copper_stairs"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.poisonous_potato"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:skeleton_skull",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "block.minecraft.skeleton_skull"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_meal",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.bone_meal"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ominous_trial_key",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.ominous_trial_key"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:brick",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.brick"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:orange_dye",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.orange_dye"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.nautilus_shell"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:clay_ball",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.clay_ball"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:kelp",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "block.minecraft.kelp"
-              }
-            }
-          ]
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:apple",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.apple"
-              }
-            }
-          ]
+          "weight": 1
         }
       ]
     }

@@ -6,15 +6,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "translate": "item.minecraft.emerald"
-              }
-            }
-          ]
+          "weight": 1
         }
       ]
     }
