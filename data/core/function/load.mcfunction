@@ -6,6 +6,7 @@
 
 scoreboard objectives add stats dummy
 scoreboard objectives add temporary dummy
+scoreboard objectives add temporary.enderchest dummy
 
 scoreboard objectives add timer.system dummy
 scoreboard objectives add timer.give_item dummy

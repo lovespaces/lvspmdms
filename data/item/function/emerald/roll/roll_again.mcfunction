@@ -9,7 +9,7 @@ execute store result score @s temporary run function item:emerald/roll/check wit
 $execute if score @s temporary matches 1 run function item:emerald/roll/roll_again {"EnderChestCount": $(EnderChestCount)}
 
 function item:emerald/roll/add_data with storage lovespaces:mdms Temporary
-scoreboard players add @s temporary 1
-$execute unless score @s temporary = $MaxOpenKey key.number run function item:emerald/roll/roll_again {"EnderChestCount": $(EnderChestCount)}
+scoreboard players add @s temporary.enderchest 1
+$execute unless score @s temporary.enderchest = $MaxOpenKey key.number run function item:emerald/roll/roll_again {"EnderChestCount": $(EnderChestCount)}
 
 function item:emerald/give with storage lovespaces:mdms Temporary
