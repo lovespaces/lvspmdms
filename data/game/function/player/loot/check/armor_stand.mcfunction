@@ -2,6 +2,6 @@
 #
 # @within game:player/loot/check/
 
-execute if score EnderChestOne temporary = @s key.number run return 1
-execute if score EnderChestTwo temporary = @s key.number run return 1
-return fail
+execute unless entity @s[tag=as.EnderChestAdded] run return 0
+execute store result storage lovespaces:mdms Temporary.ChestID int 1 run scoreboard players get @s key.number
+function game:player/loot/check/chestid with storage lovespaces:mdms Temporary

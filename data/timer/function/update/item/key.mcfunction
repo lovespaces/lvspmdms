@@ -12,5 +12,4 @@ execute if entity @s[tag=player.LostKey] run tellraw @s [{"color":"red", "text":
 execute if entity @s[tag=player.LostKey] run return 0
 
 # start時にlovespaces:mdms EnderChestCount にエンダーチェスト（アマスタ付き）の数を取得しておく
-scoreboard players set @s temporary 1
 function item:emerald/roll/
