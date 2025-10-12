@@ -14,4 +14,4 @@ execute if entity @s[tag=player.LostKey] run return 0
 # start時にlovespaces:mdms EnderChestCount にエンダーチェスト（アマスタ付き）の数を取得しておく
 scoreboard players set @s temporary 1
 data remove storage lovespaces:mdms Temporary.EnderChestList
-function item:emerald/roll with storage lovespaces:mdms
+function item:emerald/roll/

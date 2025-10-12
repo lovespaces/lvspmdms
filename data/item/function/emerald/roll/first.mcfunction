@@ -1,6 +1,6 @@
-#> item:emerald/roll
+#> item:emerald/roll/first
 #
-# @within timer:update/item/key
+# @within item:emerald/roll/
 
 $execute store result storage lovespaces:mdms Temporary.EnderChestTemp int 1 run random value 1..$(EnderChestCount)
-function item:emerald/add_data with storage lovespaces:mdms Temporary
+function item:emerald/roll/add_data with storage lovespaces:mdms Temporary
