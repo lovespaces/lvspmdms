@@ -27,12 +27,12 @@ scoreboard objectives add dropped.dead_report dropped:name_tag
 scoreboard objectives add dropped.bandage dropped:quartz
 scoreboard objectives add dropped.amulet dropped:iron_horse_armor
 scoreboard objectives add dropped.detonator dropped:redstone_torch
+# for bedrock spectators
+scoreboard objectives add dropped.player_head dropped:player_head
 
 scoreboard objectives add used.potion used:minecraft.potion
 scoreboard objectives add used.splash used:minecraft.splash_potion
 scoreboard objectives add used.lingering used:minecraft.lingering_potion
-
-scoreboard players set $Limit timer.afk 100
 
 team add murder
 team add detective

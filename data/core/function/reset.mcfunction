@@ -32,8 +32,6 @@ scoreboard players reset * used.lingering
 scoreboard players reset * used.potion
 scoreboard players reset * used.splash
 
-scoreboard players set $Limit timer.afk 60
-
 team join nothing @a
 
 tag @a remove game.Temporary
