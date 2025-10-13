@@ -19,7 +19,7 @@ tag @s remove player.LostKey
 
 clear @s tripwire_hook[custom_model_data={strings:["EnderChestKey"]}]
 function game:player/loot/forfeit
-scoreboard players set @s timer.give_key 6
+scoreboard players operation @s timer.give_key = $GiveKeySeconds stats
 function item:emerald/
 execute as @e[limit=1, tag=as.ShulkerLoot] at @s run function item:emerald/loot/give
 tag @s remove game.Temporary

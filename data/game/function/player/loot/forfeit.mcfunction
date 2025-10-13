@@ -8,7 +8,7 @@ execute store result score @s temporary run clear @s emerald 0
 execute unless score @s temporary matches 1.. run return 0
 
 execute store result score @s temporary run random value 1..100
-execute unless score @s temporary matches ..30 run return 0
-execute if predicate role:is_murderer if score @s temporary matches 15.. run return 0
+execute if predicate role:is_murderer unless score @s temporary <= $MurderLostKey stats run return 0
+execute unless score @s temporary <= $InnocentLostKey stats run return 0
 
 tag @s add player.LostKey

@@ -9,7 +9,6 @@ execute store result score @s temporary run function item:emerald/roll/check wit
 $execute if score @s temporary matches 1 run return run function item:emerald/roll/roll_again {"EnderChestCount": $(EnderChestCount)}
 function item:emerald/roll/add_data with storage lovespaces:mdms Temporary
 
-execute if score @s temporary.enderchest = $MaxOpenKey key.number run tellraw @s "すでに$MaxOpenKeyを超えています！"
 execute if score @s temporary.enderchest = $MaxOpenKey key.number run return fail
 
 $function item:emerald/roll/roll_again {"EnderChestCount": $(EnderChestCount)}

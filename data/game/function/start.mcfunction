@@ -3,9 +3,9 @@
 # @public
 
 function core:reset
+clear @a
 
 effect give @a resistance infinite 255 true
-effect give @a saturation infinite 255 true
 effect clear @a[tag=player.Spectator]
 
 gamemode adventure @a
@@ -15,7 +15,7 @@ tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "
 
 function role:join_team
 function log:role/start
-function core:set_scoreboard
+function core:scoreboard/set
 
 execute as @a[team=innocent] run function item:escape/set
 execute as @a[team=witness] run function item:escape/set

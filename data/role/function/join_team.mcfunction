@@ -2,6 +2,8 @@
 #
 # @public
 
+# こうしないとSpectatorも巻き込まれます
+team empty nothing
 team join nothing @a[tag=!player.Spectator]
 
 execute store result score $AllPlayers stats run execute if entity @a[tag=!player.Spectator]
