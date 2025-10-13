@@ -2,6 +2,7 @@
 #
 # @within item:special/
 
+scoreboard players reset @s dropped.player_head
 tag @s add player.getTp
 
 execute store result score @s temporary run function game:spectator/tp/check with entity @e[sort=nearest, type=item, limit=1] Item.components.minecraft:profile
