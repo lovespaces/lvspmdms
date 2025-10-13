@@ -16,7 +16,6 @@ scoreboard objectives add timer.give_key dummy
 scoreboard objectives add timer.iron_horse_armor dummy
 scoreboard objectives add timer.totem dummy
 
-scoreboard objectives add player.left custom:minecraft.leave_game
 scoreboard objectives add player.stung dummy
 scoreboard objectives add item.bandage dummy
 scoreboard objectives add item.emerald dummy

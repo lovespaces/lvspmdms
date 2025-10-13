@@ -16,7 +16,6 @@ scoreboard players reset * timer.totem
 scoreboard players reset * item.bandage
 scoreboard players reset * item.emerald
 scoreboard players reset * player.stung
-scoreboard players reset * player.left
 
 scoreboard players reset * key.number
 
@@ -45,6 +44,9 @@ tag @a remove player.CanBuyBow
 tag @a remove player.HasIronHorseArmor
 tag @a remove player.Bombed
 tag @a remove player.LostKey
+tag @a remove player.InTpSelector
+tag @a remove player.getTp
+tag @a remove player.toTp
 
 kill @e[type=armor_stand, tag=as.DeadBody]
 kill @e[type=arrow]

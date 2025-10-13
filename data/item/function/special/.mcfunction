@@ -9,6 +9,7 @@ execute if score @s dropped.bandage matches 1 run function item:special/drop/ban
 execute if score @s dropped.crystall_ball matches 1 run function item:special/drop/crystall_ball/roll
 execute if score @s dropped.dead_report matches 1 run function item:special/drop/dead_report
 execute if score @s dropped.detonator matches 1 run function item:special/drop/detonator
+execute if score @s dropped.player_head matches 1 at @s run function item:special/drop/player_head
 
 execute if score @s used.potion matches 1 run function item:special/potion/normal
 execute if score @s used.splash matches 1 run function item:special/potion/splash
