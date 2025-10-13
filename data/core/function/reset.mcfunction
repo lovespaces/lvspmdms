@@ -16,6 +16,7 @@ scoreboard players reset * timer.totem
 scoreboard players reset * item.bandage
 scoreboard players reset * item.emerald
 scoreboard players reset * player.stung
+scoreboard players reset * player.left
 
 scoreboard players reset * key.number
 

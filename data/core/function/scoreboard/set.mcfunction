@@ -17,7 +17,6 @@ scoreboard players set $Phase stats 0
 scoreboard players set $Escaped stats 0
 
 scoreboard players set $EnderChestID key.number 0
-scoreboard players operation $MaxOpenKey key.number = $MaxOpenKey stats
 
 execute store result storage lovespaces:mdms EnderChestCount int 1 if entity @e[tag=as.EnderChest, type=armor_stand]
 

@@ -1,3 +1,6 @@
 {
-    "values": ["core:load"]
+    "values": [
+        "core:load",
+        "core:scoreboard/default"
+    ]
 }
