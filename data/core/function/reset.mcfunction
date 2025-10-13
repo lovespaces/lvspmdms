@@ -35,8 +35,6 @@ scoreboard players reset * used.splash
 team join nothing @a
 
 tag @a remove game.Temporary
-
-tag @a remove player.Spectator
 tag @a remove player.Dead
 tag @a remove player.Attacked
 tag @a remove player.Escaped

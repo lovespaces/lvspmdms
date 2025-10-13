@@ -2,4 +2,4 @@
 #
 # @within game:spectator/tp/check
 
-tp @s @a[tag=player.getTp, limit=1]
+tp @a[tag=player.getTp, limit=1] @s

@@ -10,8 +10,11 @@ kill @e[sort=nearest, type=item, limit=1]
 
 tag @s remove player.getTp
 
-execute if score @s temporary matches 0 run return run tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"選択したプレイヤーは死亡しているか、もともと参加していないプレイヤーです。"}]
-
 effect clear @s
 clear @s *
 gamemode spectator @s
+
+execute if score @s temporary matches 0 run return run function tp:lobby
+execute if score @s temporary matches 0 run return run tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"選択したプレイヤーは死亡しているか、もともと参加していないプレイヤーです。"}]
+
+tag @s remove player.InTpSelector
