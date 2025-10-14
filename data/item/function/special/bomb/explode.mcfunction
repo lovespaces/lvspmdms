@@ -22,4 +22,5 @@ execute if predicate role:is_detective run function role:detective/attacked
 
 tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"インベントリの中に爆弾が隠れていた！", "color": "white"}]
 tellraw @s [{"color":"red","text":"[ラブスペ人狼] "},{"color":"white","text":"あと "},{"color":"yellow","score":{"name":"@s","objective":"player.stung"}},{"color":"white","text":" 回耐えられる。"}]
+tellraw @s[tag=player.HasIronHorseArmor] [{"color":"red","text":"[ラブスペ人狼] "},{"color":"white","text":"爆発を食らった際に次で死ぬ状態でない場合は、 ["}, {"color":"yellow", "text":"守護のお守り"}, {"color":"white", "text":"] の効果を得ることはできません。"}]
 execute if score @s player.stung matches 0 run tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"あと一回刺されたら死んでしまう。", "color": "white"}]
