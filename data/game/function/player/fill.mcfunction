@@ -2,7 +2,9 @@
 #
 # fill chest with stained glass
 #
-# @within game:player/loot/roll
+# @within
+#   game:player/loot/roll
+#   game:player/loot/clear
 
 item replace entity @s enderchest.0 with gray_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
 item replace entity @s enderchest.1 with gray_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_name={"color":"dark_gray","text":" "}] 1
