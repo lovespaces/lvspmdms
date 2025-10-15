@@ -36,6 +36,7 @@ scoreboard objectives add dropped.player_head dropped:player_head
 scoreboard objectives add used.potion used:minecraft.potion
 scoreboard objectives add used.splash used:minecraft.splash_potion
 scoreboard objectives add used.lingering used:minecraft.lingering_potion
+scoreboard objectives add used.ender_pearl used:minecraft.ender_pearl
 
 team add murder
 team add detective
