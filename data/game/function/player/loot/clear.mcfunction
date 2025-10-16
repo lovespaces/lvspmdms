@@ -4,4 +4,4 @@
 
 function game:player/fill
 clear @s gray_stained_glass_pane
-clear @s glass_bottle
+clear @s barrier
