@@ -4,10 +4,9 @@
 # 
 # @within item:special/
 
-kill @e[type=item, sort=nearest, limit=1]
-
 scoreboard players reset @s dropped.bandage
 execute if entity @s[tag=player.HasIronHorseArmor] run return 0
+kill @e[type=item, sort=nearest, limit=1]
 clear @s quartz
 
 playsound entity.player.burp master @s ~ ~ ~

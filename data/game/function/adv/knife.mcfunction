@@ -6,13 +6,13 @@
 
 advancement revoke @s only game:knife
 execute unless score $Phase stats matches 1.. run return 0
+execute on attacker if entity @s[tag=player.HasIronHorseArmor] run return 0
 
 execute on attacker run tag @s add player.Attacked
 function log:attacked {"weapon": "ナイフ"}
 execute on attacker run tag @s remove player.Attacked
 execute if entity @s[tag=player.HasIronHorseArmor] run return run function item:special/drop/amulet/iron_horse/
 
-execute on attacker if entity @s[tag=player.HasIronHorseArmor] run return 0
 tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"刺された！", "color": "white"}]
 execute if score $Phase stats matches 1 run function game:player/cooldown/check
 

@@ -5,6 +5,7 @@
 # @within advancement game:join_world
 
 advancement revoke @s only game:open_chest
+execute if entity @s[tag=player.HasIronHorseArmor] run return 0
 
 execute unless score $Phase stats matches 0.. run return run function game:player/clear
 function game:player/fill

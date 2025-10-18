@@ -5,6 +5,9 @@
 # @within advancement game:bomb
 
 advancement revoke @s only game:bomb
+
+execute on attacker if entity @s[tag=player.HasIronHorseArmor] run return 0
+
 execute on attacker run clear @s firework_star
 
 execute on attacker if score $Bombed stats matches 2.. run return run tellraw @s [{"text":"[ラブスペ人狼] ", "color": "red"}, {"text":"二人以上の市民に爆弾を仕掛けることはできません。", "color":"white"}]

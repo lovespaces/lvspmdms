@@ -4,10 +4,10 @@
 # 
 # @within item:special/
 
-kill @e[type=item, sort=nearest, limit=1]
-
 scoreboard players reset @s dropped.dead_report
 execute if entity @s[tag=player.HasIronHorseArmor] run return 0
+
+kill @e[type=item, sort=nearest, limit=1]
 clear @s name_tag
 
 playsound entity.enderman.teleport master @s ~ ~ ~
