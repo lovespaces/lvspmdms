@@ -57,6 +57,11 @@
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 1
         }
       ]
     }

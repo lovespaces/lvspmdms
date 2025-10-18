@@ -2,6 +2,7 @@
 #
 # @public
 
+tag @a remove player.Spectator
 gamemode adventure @a
 clear @a
 function core:reset

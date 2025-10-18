@@ -13,5 +13,6 @@ scoreboard players set $InnocentKeyItem game.settings 50
 scoreboard players set $InnocentTrash game.settings 0
 scoreboard players set $MurderLostKey game.settings 15
 scoreboard players set $InnocentLostKey game.settings 30
+scoreboard players set $CrystallBall game.settings 35
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"デフォルトのゲーム設定が反映されました", "color":"yellow"}]

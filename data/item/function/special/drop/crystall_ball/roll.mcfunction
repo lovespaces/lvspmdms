@@ -16,6 +16,6 @@ tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "
 
 execute store result score @s temporary run random value 0..100
 
-execute if score @s temporary matches 0..75 run function item:special/drop/crystall_ball/failed
+execute if score @s temporary >= $CrystallBall game.settings run return run function item:special/drop/crystall_ball/failed
 
-execute if score @s temporary matches 76..100 run function item:special/drop/crystall_ball/success
+function item:special/drop/crystall_ball/success

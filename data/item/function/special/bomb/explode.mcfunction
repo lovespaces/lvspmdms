@@ -12,7 +12,7 @@ execute if score @s player.stung matches 0 run return run function item:special/
 
 execute if items entity @s weapon.* totem_of_undying run clear @s totem_of_undying 1
 
-effect give @s instant_damage infinite 4
+effect give @s instant_damage 1 4
 
 scoreboard players remove @s player.stung 1
 

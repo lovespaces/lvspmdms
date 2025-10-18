@@ -25,7 +25,7 @@ tag @s add player.Dead
 gamemode spectator @s
 effect clear @s
 
-execute if predicate role:is_murderer run return run function game:win/innocent
+execute if predicate role:is_murderer run return run function game:win/
 
 function game:player/player_check
 
