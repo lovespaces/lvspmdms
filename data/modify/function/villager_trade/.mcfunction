@@ -1,4 +1,4 @@
-#> modify/villager_trade/update
+#> modify:villager_trade/
 #
 # @public
 

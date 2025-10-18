@@ -4,6 +4,8 @@
 #
 # @handles #minecraft:load
 
+function modify:villager_trade/
+
 scoreboard objectives add game.settings dummy
 
 scoreboard objectives add stats dummy
