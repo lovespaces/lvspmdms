@@ -16,7 +16,7 @@ execute if entity @s[tag=player.HasIronHorseArmor] run return run function item:
 tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"刺された！", "color": "white"}]
 execute if score $Phase stats matches 1 run function game:player/cooldown/check
 
-execute if items entity @s weapon.* totem_of_undying if score @s player.stung matches ..0 run return run function item:special/totem/use
+execute if items entity @s weapon.mainhand totem_of_undying if score @s player.stung matches ..0 run return run function item:special/totem/use
 clear @s totem_of_undying 1
 
 execute if score @s player.stung matches 0 run return run function game:player/dead

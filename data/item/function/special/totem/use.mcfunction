@@ -4,6 +4,8 @@
 #
 # @within game:adv/knife
 
+execute unless data entity @s SelectedItem.components."minecraft:custom_data".IsTotem run return 0
+
 effect clear @s
 effect give @s instant_damage 5 4 true
 

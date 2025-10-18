@@ -4,6 +4,7 @@
 #
 # @handles #minecraft:load
 
+function modify:escape_items/update/
 function modify:villager_trade/
 
 scoreboard objectives add game.settings dummy
