@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_sword",
+                "components": {
+                  "minecraft:custom_data": {
+                    "MdmsItem": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "player:get_attacked"
+  }
+}
