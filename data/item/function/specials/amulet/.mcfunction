@@ -1,4 +1,6 @@
+scoreboard players reset @s dropped.amulet
 execute if entity @s[tag=IronHorse] run return run function item:specials/amulet/failed
+kill @e[type=item, sort=nearest, limit=1]
 
 tag @s add IronHorse
 execute at @s run playsound block.anvil.place master @a ~ ~ ~
