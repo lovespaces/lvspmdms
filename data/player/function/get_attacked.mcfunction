@@ -26,3 +26,7 @@ execute on attacker run effect give @s slowness 3 2
 execute if score @s attack matches ..-1 run return run execute at @s run function player:dead
 
 effect give @s blindness 5 2
+
+# TODO: Witness倒したときの処理
+# TODO: Bowとナイフの共有部分を統一化する（player:attacked/）
+# TODO: Witness優先
