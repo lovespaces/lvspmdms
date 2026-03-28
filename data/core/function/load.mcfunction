@@ -1,4 +1,5 @@
 function game:load
+function item:load
 function timer:load
 
 gamerule advance_time false
