@@ -5,3 +5,4 @@ spawnpoint @s ^ ^ ^
 kill
 clear
 gamemode spectator
+scoreboard players remove $Players stats 1
