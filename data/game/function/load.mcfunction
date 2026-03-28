@@ -28,4 +28,5 @@ team modify witness collisionRule never
 team modify innocent collisionRule never
 
 scoreboard objectives add stats dummy
+scoreboard objectives add settings dummy
 scoreboard objectives add attack dummy

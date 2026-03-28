@@ -2,6 +2,8 @@ function game:load
 function item:load
 function timer:load
 
+scoreboard objectives add temporary dummy
+
 gamerule advance_time false
 gamerule advance_weather false
 gamerule show_advancement_messages false
