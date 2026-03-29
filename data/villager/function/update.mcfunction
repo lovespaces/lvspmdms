@@ -7,4 +7,4 @@ execute as @e[tag=SpecialItems] run function villager:storage/update/special wit
 data remove storage lovespaces:mdms SpecialItemsTrade
 # data remove storage lovespaces:mdms EscapeItemsTrade
 
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"アイテム取引の一時データを削除しました", "color":"white"}]
+tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"アイテム取引の一時データを削除しました", "color":"white"}]
