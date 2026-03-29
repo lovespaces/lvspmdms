@@ -1,9 +1,11 @@
 scoreboard players reset @s dropped.bandage
+
+execute unless score @s attack matches ..0 run return run function item:specials/bandage/over
+
 clear @s feather
 kill @e[type=item, sort=nearest, limit=1]
 
 execute if score @s bandage matches ..0 run return run function item:specials/bandage/failed
-execute unless score @s attack matches ..0 run return run function item:specials/bandage/over
 
 scoreboard players remove @s bandage 1
 scoreboard players add @s attack 1
