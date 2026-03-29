@@ -6,6 +6,7 @@ team add detective
 team add witness
 team add innocent
 team add spectator
+team add nothing
 
 team modify murder friendlyFire true
 team modify maniac friendlyFire true

@@ -4,7 +4,7 @@ function summon:armor_stand/dead_body
 spawnpoint @s ^ ^ ^
 kill
 clear
-tag @s add dead
+tag @s add Dead
 execute if entity @s[team=witness] run function player:dead/witness
 gamemode spectator
 team join spectator @s
