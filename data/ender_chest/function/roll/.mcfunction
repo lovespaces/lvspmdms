@@ -1,4 +1,6 @@
 execute store result score @s roll run random value 1..100
+clear @s *[custom_model_data={strings:["EnderChestKey"]}]
+execute at @s run playsound block.dispenser.launch master @s ~ ~ ~ 1 2
 
 tag @s add ChestTemporary
 execute if score @s roll <= @s roll.emerald run item replace entity @s enderchest.13 with emerald

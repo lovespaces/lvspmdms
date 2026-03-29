@@ -6,3 +6,6 @@ scoreboard objectives add roll.trash dummy
 scoreboard objectives add roll.lost_key dummy
 
 scoreboard objectives add roll dummy
+
+scoreboard objectives add temporary.enderchest dummy
+scoreboard objectives add temporary.enderchest_auth dummy
