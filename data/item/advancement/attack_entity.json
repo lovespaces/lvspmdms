@@ -11,7 +11,8 @@
                 "items": "minecraft:iron_sword",
                 "components": {
                   "minecraft:custom_data": {
-                    "MdmsItem": true
+                    "MdmsItem": true,
+                    "Knife": true
                   }
                 }
               }
