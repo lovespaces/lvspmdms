@@ -1,0 +1,1 @@
+# $MaxOpenKey, $CrystallBall, $HowManyTrashes

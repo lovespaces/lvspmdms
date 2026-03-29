@@ -14,3 +14,7 @@ gamerule immediate_respawn true
 gamerule keep_inventory true
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"読み込みが終わりました", "color":"white"}]
+
+# TODO: タイマー
+# TODO: スタートコマンド
+# TODO: アドミン用のコマンド
