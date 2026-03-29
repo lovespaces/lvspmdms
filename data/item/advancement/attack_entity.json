@@ -22,6 +22,6 @@
     }
   },
   "rewards": {
-    "function": "player:get_attacked"
+    "function": "player:attacked/knife"
   }
 }
