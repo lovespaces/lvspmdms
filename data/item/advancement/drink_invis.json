@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:custom_data": {
+              "MdmsItem": true,
+              "Invisible": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:specials/potion/drink/invisible"
+  }
+}
