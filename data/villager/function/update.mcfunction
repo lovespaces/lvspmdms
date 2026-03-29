@@ -8,5 +8,3 @@ data remove storage lovespaces:mdms SpecialItemsTrade
 # data remove storage lovespaces:mdms EscapeItemsTrade
 
 tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"アイテム取引の一時データを削除しました", "color":"white"}]
-
-# glint override　修正
