@@ -1,6 +1,8 @@
 function game:load
 function item:load
 function timer:load
+function ender_chest:load
+function armor_stand:load
 
 scoreboard objectives add temporary dummy
 

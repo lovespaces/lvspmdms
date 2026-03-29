@@ -1,0 +1,1 @@
+scoreboard objectives add armor_stand.ender_chest_id dummy
