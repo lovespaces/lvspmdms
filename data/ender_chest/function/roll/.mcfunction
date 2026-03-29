@@ -8,4 +8,7 @@ execute if score @s roll <= @s roll.key run execute as @e[limit=1, type=armor_st
 execute if score @s roll <= @s roll.trash run execute as @e[limit=1, type=armor_stand, tag=TempChest] at @s run function ender_chest:roll/item/ {"loot_path": "trash"}
 tag @s remove ChestTemporary
 
+tag @s add QueueKey
+scoreboard players operation @s timer.key = $KeySeconds settings
+
 function ender_chest:roll/lost/roll
