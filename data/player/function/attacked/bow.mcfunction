@@ -1,4 +1,3 @@
-# TODO: 弓は耐久力1に
 advancement revoke @s only item:entity_bow
 execute on attacker run clear @s bow
 

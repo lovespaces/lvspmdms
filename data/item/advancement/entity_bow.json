@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "game:adv/bow"
+    "function": "player:attacked/bow"
   }
 }
