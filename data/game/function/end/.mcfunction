@@ -1,5 +1,6 @@
 team empty spectator
 gamemode adventure @a
+effect clear @a
 clear @a
 function game:reset
 
