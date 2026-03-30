@@ -1,1 +1,1 @@
-summon villager ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,NoAI:1b,Tags:["RecycleBin"],CustomName:{"color":"yellow","text":"怪しい村人"},VillagerData:{profession:"minecraft:librarian"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,xp:0,buy:{id:"minecraft:barrier",count:1},sell:{id:"minecraft:barrier",count:1}}]}}
+summon villager ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,NoAI:1b,Tags:["RecycleBin"],CustomName:{"color":"aqua","text":"怪しい村人"},VillagerData:{profession:"minecraft:none"}}
