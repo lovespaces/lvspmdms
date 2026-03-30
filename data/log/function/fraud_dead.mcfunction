@@ -1,0 +1,1 @@
+tellraw @a [{"color":"red","text":"[ラブスペ人狼] "},{"color":"yellow","selector":"@s"},{"text":" 死亡 (", "color":"white"}, {"text":"途中抜け", "bold": true, "underlined": true, "color":"white"}, {"text":")", "color":"white"}]

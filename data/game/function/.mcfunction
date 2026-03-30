@@ -1,3 +1,5 @@
+execute as @a[scores={leave_game=1..}] run function game:leave_game/
+
 function timer:
 
 execute if score $Phase stats matches 1..2 run return 0

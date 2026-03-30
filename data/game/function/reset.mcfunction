@@ -4,6 +4,7 @@ scoreboard players reset * armor_stand.ender_chest_id
 
 scoreboard players reset * stats
 scoreboard players reset * temporary
+scoreboard players reset * is_playing
 scoreboard players reset * temporary.enderchest
 scoreboard players reset * temporary.enderchest_auth
 

@@ -9,6 +9,7 @@ function villager:update
 function escape:storage/update
 
 scoreboard objectives add temporary dummy
+scoreboard objectives add is_playing dummy
 
 gamerule advance_time false
 gamerule advance_weather false
