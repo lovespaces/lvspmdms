@@ -1,9 +1,5 @@
-
 scoreboard players set $Phase stats 3
 scoreboard players set $Phase timer 200
-
 clear @a
-# TODO: function game:win/check
-
 function log:end/role/
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"10秒後にゲームを終了します。"}]
