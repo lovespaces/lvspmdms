@@ -3,6 +3,7 @@ execute if entity @s[tag=IronHorse] run return run function item:specials/amulet
 kill @e[type=item, sort=nearest, limit=1]
 
 tag @s add IronHorse
+scoreboard players set @s timer.iron_horse 200
 execute at @s run playsound block.anvil.place master @a ~ ~ ~
 
 function log:used {"item": "守護のお守り"}

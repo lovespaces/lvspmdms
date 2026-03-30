@@ -14,7 +14,7 @@ scoreboard players reset * roll.lost_key
 scoreboard players reset * roll.trash
 
 scoreboard players reset * timer
-# scoreboard players reset * timer.iron_horse_armor
+scoreboard players reset * timer.iron_horse
 scoreboard players reset * timer.key
 scoreboard players reset * timer.knife
 scoreboard players reset * timer.totem
