@@ -1,1 +1,64 @@
 # $MaxOpenKey, $CrystallBall, $HowManyTrashes
+
+scoreboard players reset * armor_stand.ender_chest_id
+
+scoreboard players reset * stats
+scoreboard players reset * temporary
+scoreboard players reset * temporary.enderchest
+scoreboard players reset * temporary.enderchest_auth
+
+scoreboard players reset * roll
+scoreboard players reset * roll.emerald
+scoreboard players reset * roll.key
+scoreboard players reset * roll.lost_key
+scoreboard players reset * roll.trash
+
+scoreboard players reset * timer
+# scoreboard players reset * timer.iron_horse_armor
+scoreboard players reset * timer.key
+scoreboard players reset * timer.knife
+scoreboard players reset * timer.totem
+
+scoreboard players reset * bandage
+scoreboard players reset * attack
+scoreboard players reset * open.ender_chest
+
+scoreboard players reset * escape.one
+scoreboard players reset * escape.two
+
+scoreboard players reset * dropped.amulet
+scoreboard players reset * dropped.bandage
+scoreboard players reset * dropped.crystall_ball
+scoreboard players reset * dropped.dead_report
+scoreboard players reset * dropped.detonator
+
+scoreboard players reset * used.lingering
+scoreboard players reset * used.splash
+
+team join nothing @a
+
+tag @a remove AttackTemporary
+tag @a remove CanBuyBow
+tag @a remove ChestTemporary
+tag @a remove Dead
+tag @a remove EnderChest
+tag @a remove Escaped
+tag @a remove EscapeItems
+tag @a remove IronHorse
+tag @a remove NoKnife
+tag @a remove QueueKey
+tag @a remove SpecialItems
+tag @a remove TempChest
+tag @a remove UsedTotem
+
+kill @e[type=armor_stand, tag=DeadBody]
+kill @e[type=arrow]
+kill @e[type=item]
+
+effect clear @a
+execute as @a run attribute @s attack_speed base set 1024
+difficulty peaceful
+
+execute as @a run function ender_chest:reset
+
+tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]
