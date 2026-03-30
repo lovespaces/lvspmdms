@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:villager",
-          "nbt": "{\"Tags\": [\"recycle_bin\"]}"
+          "nbt": "{\"Tags\": [\"RecycleBin\"]}"
         }
       }
     }
