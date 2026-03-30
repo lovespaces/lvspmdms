@@ -4,7 +4,9 @@ execute if score $Phase stats matches 1..2 run return 0
 
 execute as @a[tag=IronHorse] run effect clear
 execute as @e[type=item] at @s run function item:kill
+
 execute as @a run function ender_chest:clear/
+execute as @a run function ender_chest:
 execute as @a run function item:
 
 title @a[team=spectator] actionbar {"text":"※市民とVCをしている場合はミュートにしてください※", "color":"red"}
