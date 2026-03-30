@@ -9,7 +9,10 @@ scoreboard players set $Two temporary 2
 scoreboard players operation $HalfInnocent stats /= $Two temporary
 execute if score $HalfInnocent stats matches 0 run scoreboard players add $HalfInnocent stats 1
 
-team join murder @r[team=nothing]
+scoreboard players set $MurderNum temporary 0
+scoreboard players set $ManiacNum temporary 0
+execute as @r[team=nothing] run function player:team/murder
+execute as @r[team=nothing] run function player:team/maniac
 team join witness @r[team=nothing]
 team join detective @r[team=nothing]
 
