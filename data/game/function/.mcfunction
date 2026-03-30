@@ -1,4 +1,4 @@
-execute as @a[scores={leave_game=1..}] run function game:leave_game/
+execute as @a[scores={leave_game=1..}] at @s run function game:leave_game/
 
 function timer:
 
