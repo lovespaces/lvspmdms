@@ -29,4 +29,3 @@ gamerule locator_bar false
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"読み込みが終わりました", "color":"white"}]
 
 # TODO: アドミン用のコマンド
-# TODO: 終了判定
