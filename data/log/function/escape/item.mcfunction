@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"color": "white", "text": "- "}, {"color":"yellow", "text":"["}, {"color":"yellow","translate":"$(translate).minecraft.$(id)"},{"color":"yellow","text":"]"}]
