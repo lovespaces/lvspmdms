@@ -41,14 +41,10 @@ tag @a remove AttackTemporary
 tag @a remove CanBuyBow
 tag @a remove ChestTemporary
 tag @a remove Dead
-tag @a remove EnderChest
 tag @a remove Escaped
-tag @a remove EscapeItems
 tag @a remove IronHorse
 tag @a remove NoKnife
 tag @a remove QueueKey
-tag @a remove SpecialItems
-tag @a remove TempChest
 tag @a remove UsedTotem
 
 tag @a remove Murder
