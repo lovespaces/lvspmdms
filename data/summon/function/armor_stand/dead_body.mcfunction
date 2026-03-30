@@ -1,1 +1,1 @@
-summon armor_stand ^ ^ ^ {Tags:["dead_body"],equipment:{head:{id:"minecraft:skeleton_skull",count:1}}}
+summon armor_stand ^ ^ ^ {Tags:["DeadBody"],equipment:{head:{id:"minecraft:skeleton_skull",count:1}}}
