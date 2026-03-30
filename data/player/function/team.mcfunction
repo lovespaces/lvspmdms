@@ -15,3 +15,9 @@ team join detective @r[team=nothing]
 team join innocent @a[team=nothing]
 
 tag @a[team=detective] add CanBuyBow
+
+tag @a[team=murder] add Murder
+tag @a[team=maniac] add Maniac
+tag @a[team=detective] add Detective
+tag @a[team=witness] add Witness
+tag @a[team=innocent] add Innocent
