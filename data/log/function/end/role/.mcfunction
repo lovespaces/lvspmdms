@@ -1,0 +1,13 @@
+tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"役職一覧"}]
+tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"死んだプレイヤーは灰色、脱出したプレイヤーは黄色で表示されます。"}]
+
+tellraw @a [{"color":"red", "text":"  殺人鬼: "}]
+tellraw @a [{"text":"    "}, {"selector":"@a[team=murder]","separator":"\n", "color":"white"}, {"selector":"@a[team=spectator, tag=Murder]", "separator":"\n", "color":"gray"}]
+tellraw @a [{"color":"red", "text":"  狂人: "}]
+tellraw @a [{"text":"    "}, {"selector":"@a[team=maniac]","separator":"\n", "color": "white"}, {"selector":"@a[team=spectator, tag=Maniac]", "color":"gray"}]
+tellraw @a [{"color":"aqua", "text":"  探偵: "}]
+tellraw @a [{"text":"    "}, {"selector":"@a[team=detective]","separator":"\n", "color":"white"}, {"selector":"@a[team=spectator, tag=Detective]", "color":"gray"}]
+tellraw @a [{"color":"light_purple", "text":"  目撃者: "}]
+tellraw @a [{"text":"    "}, {"selector":"@a[team=witness]","separator":"\n", "color":"white"}, {"selector":"@a[team=spectator, tag=Witness]", "color":"gray"}, {"selector":"@a[tag=Escaped, tag=Witness]", "color":"yellow"}]
+tellraw @a [{"color":"white", "text":"  市民: "}]
+tellraw @a [{"text":"    "}, {"selector":"@a[team=innocent]","separator":"\n", "color":"white"}, {"selector":"@a[team=spectator, tag=Innocent]", "color":"gray"}, {"selector":"@a[tag=Escaped, tag=Innocent]", "color":"yellow"}]

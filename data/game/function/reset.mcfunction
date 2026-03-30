@@ -51,6 +51,12 @@ tag @a remove SpecialItems
 tag @a remove TempChest
 tag @a remove UsedTotem
 
+tag @a remove Murder
+tag @a remove Maniac
+tag @a remove Detective
+tag @a remove Witness
+tag @a remove Innocent
+
 kill @e[type=armor_stand, tag=DeadBody]
 kill @e[type=arrow]
 kill @e[type=item]
