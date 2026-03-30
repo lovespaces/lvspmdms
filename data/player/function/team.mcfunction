@@ -1,4 +1,3 @@
-# TODO: 複数人対応
 team empty nothing
 team join nothing @a[team=!spectator]
 
