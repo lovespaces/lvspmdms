@@ -52,6 +52,8 @@ tag @a remove Detective
 tag @a remove Witness
 tag @a remove Innocent
 
+tag @e remove ECAdded
+
 kill @e[type=armor_stand, tag=DeadBody]
 kill @e[type=arrow]
 kill @e[type=item]
