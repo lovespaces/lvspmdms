@@ -2,11 +2,12 @@
 team empty nothing
 team join nothing @a[team=!spectator]
 
-execute store result score $AllPlayers stats run execute if entity @a[team=nothing]
-scoreboard players operation $Players stats = $AllPlayers stats
+execute store result score $AllPlayers stats if entity @a[team=nothing]
+execute store result score $AllInnocent stats if entity @a[team=!murder, team=!detective, team=!maniac, team=!spectator]
 
-scoreboard players operation $AllInnocent stats = $AllPlayers stats
-scoreboard players remove $AllInnocent stats 2
+scoreboard players set $Two temporary 2
+scoreboard players operation $HalfInnocent stats /= $Two temporary
+execute if score $HalfInnocent stats matches 0 run scoreboard players add $HalfInnocent stats 1
 
 team join murder @r[team=nothing]
 team join witness @r[team=nothing]

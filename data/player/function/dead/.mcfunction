@@ -5,10 +5,9 @@ spawnpoint @s ^ ^ ^
 kill
 clear
 tag @s add Dead
-execute if entity @s[team=witness] run function player:dead/witness
+scoreboard players add $Dead stats 1
+function game:end/win/check
+execute if score $Phase stats matches 3 run return 0
 gamemode spectator
+execute if entity @s[team=witness] run function player:dead/witness
 team join spectator @s
-# TODO: ひとまずmurderが一人だけの処理
-# あとから二人以上の場合も入れるようにしましょう
-execute if entity @s[team=murder] run return 0
-scoreboard players remove $Players stats 1

@@ -1,16 +1,11 @@
-scoreboard players set $Players temporary 2
-scoreboard players operation $AllInnocent temporary = $AllPlayers stats
-scoreboard players remove $AllInnocent temporary 1
-scoreboard players operation $AllInnocent stats /= $Players temporary
+execute if entity @a[team=spectator, tag=Murder] unless entity @a[team=murder] run return run function game:end/win/innocent
 
-execute if entity @a[team=murder, tag=player.Spectator] run return run function game:end/win/innocent
+execute if score $Mistake stats = $AllInnocent stats run return run function game:end/win/special/all_mistake
 
-execute if score $Mistake stats = $AllInnocent temporary run return run function game:end/win/special/all_mistake
-
-execute if score $Mistake stats >= $AllInnocent stats run return run function game:end/win/special/mistake
+execute if score $Mistake stats >= $HalfInnocent stats run return run function game:end/win/special/mistake
 
 execute if score $Escaped stats matches 0 run return run function game:end/win/special/all_killed
 
-execute if score $AllInnocent stats <= $Escaped stats run return run function game:end/win/innocent
+execute if score $Escaped stats > $HalfInnocent stats run return run function game:end/win/innocent
 
-execute if score $AllInnocent stats > $Escaped stats run function game:end/win/murder
+execute if score $Dead stats > $HalfInnocent stats run function game:end/win/murder
