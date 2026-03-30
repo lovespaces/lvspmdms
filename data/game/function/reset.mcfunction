@@ -1,5 +1,3 @@
-# $MaxOpenKey, $CrystallBall, $HowManyTrashes
-
 scoreboard players reset * armor_stand.ender_chest_id
 
 scoreboard players reset * stats

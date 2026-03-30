@@ -1,0 +1,20 @@
+# ワールド内でいじれる数値たち
+scoreboard players set $MurderNum settings 1
+scoreboard players set $ManiacNum settings 0
+
+scoreboard players set $KeySeconds settings 3
+scoreboard players set $MaxOpenKey settings 9
+scoreboard players set $CrystallBall settings 20
+scoreboard players set $HowManyTrashes settings 10
+
+scoreboard players set $RoleEmerald settings 50
+scoreboard players set $RoleKey settings -1
+scoreboard players set $RoleTrash settings 100
+scoreboard players set $RoleLostKey settings 40
+
+scoreboard players set $InnocentEmerald settings 40
+scoreboard players set $InnocentKey settings 70
+scoreboard players set $InnocentTrash settings 100
+scoreboard players set $InnocentLostKey settings 20
+
+tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"デフォルトのゲーム設定が反映されました", "color":"yellow"}]
