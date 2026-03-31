@@ -1,3 +1,7 @@
+execute unless score $AllPlayers stats <= $RolePlayers stats run return 0
+
+function game:end/win/
+
 execute if entity @a[team=spectator, tag=Murder] unless entity @a[team=murder] run return run function game:end/win/innocent
 
 execute if score $Mistake stats = $AllInnocent stats run return run function game:end/win/special/all_mistake

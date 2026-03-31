@@ -3,6 +3,11 @@ team join nothing @a[team=!spectator]
 
 execute store result score $AllPlayers stats if entity @a[team=nothing]
 execute store result score $AllInnocent stats if entity @a[team=!murder, team=!detective, team=!maniac, team=!spectator]
+scoreboard players operation $HalfInnocent stats = $AllInnocent stats
+
+scoreboard players operation $RolePlayers stats = $MurderNum settings
+scoreboard players operation $RolePlayers stats += $ManiacNum settings
+scoreboard players add $RolePlayers stats 1
 
 scoreboard players set $Two temporary 2
 scoreboard players operation $HalfInnocent stats /= $Two temporary
@@ -18,6 +23,8 @@ team join detective @r[team=nothing]
 team join innocent @a[team=nothing]
 
 tag @a[team=detective] add CanBuyBow
+tag @a[team=maniac] add CanBuyBow
+execute unless entity @a[team=detective] run tag @a[team=!spectator] add CanBuyBow
 
 tag @a[team=murder] add Murder
 tag @a[team=maniac] add Maniac
