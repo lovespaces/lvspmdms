@@ -4,6 +4,7 @@ function timer:load
 function ender_chest:load
 function armor_stand:load
 function escape:load
+function villager:load
 
 function villager:update
 function escape:storage/update
