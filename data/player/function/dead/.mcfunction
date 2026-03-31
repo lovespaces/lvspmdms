@@ -6,7 +6,7 @@ tag @s add Dead
 scoreboard players add $Dead stats 1
 scoreboard players remove $AllPlayers stats 1
 function game:end/win/check
-gamemode spectator
+gamemode spectator @s
 execute if score $Phase stats matches 3 run return 0
 execute if entity @s[team=detective] run function player:dead/detective
 execute if entity @s[team=witness] run function player:dead/witness
