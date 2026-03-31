@@ -1,7 +1,7 @@
-scoreboard players set @a[team=!murder, team=!spectator] bandage 2
+scoreboard players set @a[team=!murder, team=!spectator] bandage 1
 scoreboard players set @a[team=!spectator, team=!murder] attack 1
 
-scoreboard players set @a[team=detective] bandage 2
+scoreboard players set @a[team=detective] bandage 1
 scoreboard players set @a[team=detective] attack 2
 
 scoreboard players set @a[team=witness] bandage 0
