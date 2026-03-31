@@ -1,4 +1,6 @@
-execute unless items entity @s container.* *[custom_data={"MdmsItem":true,"Knife":true}] run return 0
+execute store result score @s temporary.trade run function villager:item_check/duplicate/ {"item": "iron_sword"}
+
+execute unless score @s temporary.trade matches 1 run return 0
 
 execute if entity @s[team=murder] run return 0
 
