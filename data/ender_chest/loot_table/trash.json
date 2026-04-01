@@ -61,5 +61,13 @@
       ]
     }
   ],
-  "functions": []
+  "functions": [
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "MdmsItem": true,
+        "Trash": true
+      }
+    }
+  ]
 }
