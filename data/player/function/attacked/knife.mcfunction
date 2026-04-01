@@ -15,10 +15,9 @@ execute if items entity @s weapon.* totem_of_undying[custom_data={"MdmsItem":tru
 
 scoreboard players remove @s attack 1
 execute on attacker run effect give @s slowness 3 2
+execute on attacker run function player:attacked/is_final_phase
 
-execute if score @s attack matches ..-1 run return run execute at @s run function log:dead
+execute if score @s attack matches ..-1 run execute at @s run function log:dead
 execute if score @s attack matches ..-1 run return run execute at @s run function player:dead/
 
 effect give @s blindness 5 2
-execute on attacker run effect give @s invisibility 3 1
-scoreboard players operation @s timer.knife = $KnifeSeconds settings

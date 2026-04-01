@@ -11,6 +11,7 @@ tag @s remove UsedTotem
 
 tag @s remove Murder
 tag @s remove Maniac
+tag @s remove BadGuys
 tag @s remove Detective
 tag @s remove Witness
 tag @s remove Innocent

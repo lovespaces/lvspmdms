@@ -34,6 +34,8 @@ execute unless entity @a[team=detective] run tag @a[team=!spectator] add CanBuyB
 
 tag @a[team=murder] add Murder
 tag @a[team=maniac] add Maniac
+tag @a[team=murder] add BadGuys
+tag @a[team=maniac] add BadGuys
 tag @a[team=detective] add Detective
 tag @a[team=witness] add Witness
 tag @a[team=innocent] add Innocent

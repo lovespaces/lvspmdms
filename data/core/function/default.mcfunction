@@ -8,6 +8,8 @@ scoreboard players set $CrystallBall settings 20
 scoreboard players set $HowManyTrashes settings 3
 scoreboard players set $MinimumLostEms settings 4
 scoreboard players set $EscapeSneaks settings 120
+scoreboard players set $KnifeSeconds settings 140
+scoreboard players set $KnifeShortSeconds settings 60
 
 scoreboard players set $RoleEmerald settings 50
 scoreboard players set $RoleKey settings -1
