@@ -5,7 +5,7 @@ scoreboard players set $ManiacNum settings 0
 scoreboard players set $KeySeconds settings 3
 scoreboard players set $MaxOpenKey settings 9
 scoreboard players set $CrystallBall settings 20
-scoreboard players set $HowManyTrashes settings 10
+scoreboard players set $HowManyTrashes settings 3
 scoreboard players set $MinimumLostEms settings 4
 
 scoreboard players set $RoleEmerald settings 50
