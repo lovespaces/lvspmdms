@@ -10,7 +10,6 @@ execute at @s run particle item{item:{id:bow}} ~ ~1 ~ 0.25 0.25 0.25 0 5
 execute if entity @s[tag=IronHorse] run return run execute on attacker at @s run function item:specials/amulet/attacked
 
 function player:attacked/mistake/check
-
 function log:dead
 execute at @s run function player:dead/
 
