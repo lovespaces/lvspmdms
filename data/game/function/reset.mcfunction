@@ -37,22 +37,7 @@ scoreboard players reset * used.splash
 
 team join nothing @a
 
-tag @a remove AlreadyTold
-tag @a remove AttackTemporary
-tag @a remove CanBuyBow
-tag @a remove ChestTemporary
-tag @a remove Dead
-tag @a remove Escaped
-tag @a remove IronHorse
-tag @a remove NoKnife
-tag @a remove QueueKey
-tag @a remove UsedTotem
-
-tag @a remove Murder
-tag @a remove Maniac
-tag @a remove Detective
-tag @a remove Witness
-tag @a remove Innocent
+execute as @a run function core:reset_tag
 
 tag @e remove ECAdded
 

@@ -1,3 +1,5 @@
+execute if score $Phase stats matches 2.. run return 0
+
 scoreboard players set $Phase stats 2
 
 title @a title {"text":"目撃者がいなくなった！", "color":"red"}
