@@ -1,4 +1,5 @@
-execute unless score $AllPlayers stats <= $RolePlayers stats run return 0
+execute if entity @a[team=innocent] run return 0
+execute if entity @a[team=witness] run return 0
 
 function game:end/win/
 

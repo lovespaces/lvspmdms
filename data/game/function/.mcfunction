@@ -1,8 +1,7 @@
-execute as @a[scores={leave_game=1..}] at @s run function game:leave_game/
-
 function timer:
+execute unless score $Phase stats matches 1..2 run return 0
 
-execute if score $Phase stats matches 1..2 run return 0
+execute as @a[scores={leave_game=1..}] at @s run function game:leave_game/
 
 execute as @a[tag=IronHorse] run effect clear
 execute as @e[type=item] at @s run function item:kill
