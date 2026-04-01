@@ -1,4 +1,4 @@
-execute unless entity @a[team=murder] run return run function game:end/win/innocent
+execute unless entity @a[tag=Murder, tag=!Dead] run return run function game:end/win/innocent
 
 execute if entity @a[team=innocent] run return 0
 execute if entity @a[team=witness] run return 0
