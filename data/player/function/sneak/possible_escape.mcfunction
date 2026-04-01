@@ -1,0 +1,10 @@
+function escape:check/store
+
+execute store result score @s temporary run function escape:check/key with storage lovespaces:mdms
+
+execute unless score @s temporary matches 1 run return 0
+
+execute at @s run playsound entity.player.levelup master @s ~ ~ ~
+tellraw @s [{"text":"[ラブスペ人狼] "}, {"text":"脱出できるようになった！看板を押して脱出しよう", "color":"white"}]
+
+execute if score $Escaped stats < $EscapeMinimum stats run function log:tips/dont_escape_early

@@ -7,7 +7,7 @@ scoreboard players set $MaxOpenKey settings 9
 scoreboard players set $CrystallBall settings 20
 scoreboard players set $HowManyTrashes settings 3
 scoreboard players set $MinimumLostEms settings 4
-scoreboard players set $EscapeSneaks settings 100
+scoreboard players set $EscapeSneaks settings 120
 
 scoreboard players set $RoleEmerald settings 50
 scoreboard players set $RoleKey settings -1
