@@ -14,6 +14,6 @@ function player:attacked/mistake/check
 function log:dead
 execute at @s run function player:dead/
 
-execute unless entity @s[team=!detective] run return 0
-tag @s remove CanBuyBow
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"弓を打つことができなくなった", "color":"white"}]
+execute on attacker unless entity @s[team=!detective] run return 0
+execute on attacker run tag @s remove CanBuyBow
+execute on attacker run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"弓を打つことができなくなった", "color":"white"}]
