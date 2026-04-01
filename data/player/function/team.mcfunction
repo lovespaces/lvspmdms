@@ -4,14 +4,20 @@ team join nothing @a[team=!spectator]
 execute store result score $AllPlayers stats if entity @a[team=nothing]
 execute store result score $AllInnocent stats if entity @a[team=!murder, team=!detective, team=!maniac, team=!spectator]
 scoreboard players operation $HalfInnocent stats = $AllInnocent stats
+scoreboard players operation $EscapeMinimum stats = $AllInnocent stats
 
 scoreboard players operation $RolePlayers stats = $MurderNum settings
 scoreboard players operation $RolePlayers stats += $ManiacNum settings
 scoreboard players add $RolePlayers stats 1
 
-scoreboard players set $Two temporary 2
-scoreboard players operation $HalfInnocent stats /= $Two temporary
+scoreboard players set $Calc temporary 2
+scoreboard players operation $HalfInnocent stats /= $Calc temporary
 execute if score $HalfInnocent stats matches 0 run scoreboard players add $HalfInnocent stats 1
+
+scoreboard players set $Calc temporary 4
+scoreboard players operation $EscapeMinimum stats *= $Calc temporary
+scoreboard players set $Calc temporary 10
+scoreboard players operation $EscapeMinimum stats /= $Calc temporary
 
 scoreboard players set $MurderNum temporary 0
 scoreboard players set $ManiacNum temporary 0

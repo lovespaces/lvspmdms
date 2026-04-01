@@ -36,6 +36,7 @@ scoreboard players reset * used.splash
 
 team join nothing @a
 
+tag @a remove AlreadyTold
 tag @a remove AttackTemporary
 tag @a remove CanBuyBow
 tag @a remove ChestTemporary

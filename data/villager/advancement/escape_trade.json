@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{\"Tags\": [\"EscapeItems\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "villager:item_check/escape/"
+  }
+}

@@ -1,8 +1,5 @@
+function escape:check/store
 
-$execute store success score @s temporary run function game:escape/item/check with storage lovespaces:mdms EscapeItems[$(EscapeTemporaryOne)]
-execute if score @s temporary matches 0 run return 0
+execute store result score @s temporary run function escape:check/key with storage lovespaces:mdms
 
-$execute store success score @s temporary run function game:escape/item/check with storage lovespaces:mdms EscapeItems[$(EscapeTemporaryTwo)]
-execute if score @s temporary matches 0 run return 0
-
-function escape:success
+execute if score @s temporary matches 1 run function escape:success
