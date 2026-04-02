@@ -12,6 +12,8 @@ scoreboard players set @a[team=spectator] stats 1
 scoreboard players set $Phase stats 0
 scoreboard players set $Escaped stats 0
 scoreboard players set $Tick timer 20
+scoreboard players operation $InSeconds stats = $EscapeSneaks settings
+scoreboard players operation $InSeconds stats /= $Tick timer
 
 function ender_chest:armor_stand/
 function ender_chest:roll/setup
