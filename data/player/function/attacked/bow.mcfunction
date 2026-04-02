@@ -1,4 +1,5 @@
 advancement revoke @s only item:entity_bow
+execute on attacker if entity @s[tag=IronHorse] run return run function player:iron_horse
 execute on attacker run clear @s bow
 
 function player:attacked/ {"weapon": "弓"}
