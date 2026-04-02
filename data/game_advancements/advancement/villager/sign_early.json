@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_sign"
+    },
+    "title": "説明書必読",
+    "description": "鍵を持っただけで脱出しようとする",
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "game_advancements:villager/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

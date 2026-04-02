@@ -1,4 +1,5 @@
 function game:load
+function game_advancements:load
 function item:load
 function timer:load
 function ender_chest:load

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "真・ステルス脱出",
+    "description": {
+      "text": "エメラルドを10個以上持ちながら脱出する"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "game_advancements:witness/stealth_escape",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

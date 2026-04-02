@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "追・ステルス脱出",
+    "description": {
+      "text": "3回透明になってから脱出する"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "game_advancements:witness/stealth_escape",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

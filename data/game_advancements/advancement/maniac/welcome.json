@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": "これで君も共犯者だ",
+    "description": "狂人になる",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

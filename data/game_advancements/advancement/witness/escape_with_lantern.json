@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": "逃走中で賞金獲得するやつ",
+    "description": {
+      "text": "[おぼろ灯]",
+      "extra": [
+        {
+          "text": " で身元が割れている状態で人狼を凶暴化させずに脱出する",
+          "color": "dark_purple"
+        }
+      ],
+      "color": "red"
+    },
+    "frame": "challenge",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:witness/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

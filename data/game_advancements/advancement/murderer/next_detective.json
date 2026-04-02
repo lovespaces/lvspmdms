@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": "次の探偵は私です",
+    "description": "探偵を倒して弓を持つ",
+    "frame": "goal",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:murderer/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

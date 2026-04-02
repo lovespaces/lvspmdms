@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": "ふんだりけったり",
+    "description": {
+      "text": "[守護のお守り]",
+      "extra": [
+        {
+          "text": " の効果を受けている状態で撃たれて刺される",
+          "color": "dark_purple"
+        }
+      ],
+      "color": "yellow"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "game_advancements:villager/used_ironhorse",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

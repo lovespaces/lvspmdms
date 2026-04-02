@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": "目指せ脱出",
+    "description": "村人になる",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_bottle"
+    },
+    "title": "マナー講師が気にする",
+    "description": "ポーションを早飲みしてゲップをする",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:villager/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

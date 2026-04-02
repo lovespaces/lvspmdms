@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": "かすり傷一つ負わない",
+    "description": "鍵を落とさず、刺されず、走らず、取引せずに脱出する",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "game_advancements:villager/no_attack_lost",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

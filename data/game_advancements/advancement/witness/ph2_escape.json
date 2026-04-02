@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": "地雷系脱出",
+    "description": "脱出して、人狼を凶暴化させる",
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "game_advancements:witness/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

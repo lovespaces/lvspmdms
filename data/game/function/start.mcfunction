@@ -1,4 +1,4 @@
-
+gamerule show_advancement_messages false
 function game:reset
 clear @a
 

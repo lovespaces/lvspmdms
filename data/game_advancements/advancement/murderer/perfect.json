@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": "完璧主義",
+    "description": "探偵を含めて一人残らず倒す",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "game_advancements:murderer/win",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

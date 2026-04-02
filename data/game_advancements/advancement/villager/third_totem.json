@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": "その財力はどこから?",
+    "description": {
+      "text": "一試合に三回 ",
+      "extra": [
+        {
+          "text": "[神秘的なお守り]",
+          "color": "yellow"
+        },
+        {
+          "text": " を使う"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "game_advancements:villager/totem",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

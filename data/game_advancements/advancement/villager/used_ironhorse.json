@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor"
+    },
+    "title": "「はいバリア～!」",
+    "description": {
+      "text": "[守護のお守り]",
+      "extra": [
+        {
+          "text": " を使う",
+          "color": "green"
+        }
+      ],
+      "color": "yellow"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:villager/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

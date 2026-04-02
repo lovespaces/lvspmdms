@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": "抱きかかえたお守り",
+    "description": {
+      "text": "[神秘的なお守り]",
+      "extra": [
+        {
+          "text": " を使う",
+          "color": "dark_purple"
+        }
+      ],
+      "color": "yellow"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:villager/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

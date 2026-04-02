@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": "ゴミを買収",
+    "description": {
+      "text": "[怪しい村人]",
+      "extra": [
+        {
+          "text": " にゴミをあげてエメラルドをもらう",
+          "color": "green"
+        }
+      ],
+      "color": "aqua"
+    },
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:villager/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

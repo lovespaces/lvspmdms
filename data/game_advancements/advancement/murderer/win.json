@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": "一件落着っと",
+    "description": "ゲームで勝利する",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:murderer/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

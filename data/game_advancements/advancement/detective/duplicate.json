@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": "※重複購入にはご注意※",
+    "description": "矢を3個以上持つ",
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "game_advancements:detective/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

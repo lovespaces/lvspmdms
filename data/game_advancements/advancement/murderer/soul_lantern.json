@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "光の導く先",
+    "description": "「おぼろ灯」が目撃者を示す",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:murderer/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

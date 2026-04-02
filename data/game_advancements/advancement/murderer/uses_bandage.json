@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz"
+    },
+    "title": "偽造された切り傷",
+    "description": "人狼のときに包帯を使う",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:murderer/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

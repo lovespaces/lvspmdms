@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": "無事解決",
+    "description": "人狼を倒して勝利する",
+    "frame": "task",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:detective/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": "ラブスペ人狼",
+    "description": "ラブスペ人狼に参加する",
+    "background": "minecraft:block/crimson_planks",
+    "frame": "challenge",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_horse_armor"
+    },
+    "title": "「チャージしてください」",
+    "description": {
+      "text": "[守護のお守り]",
+      "extra": [
+        {
+          "text": " の効果を受けている状態で脱出しようとする",
+          "color": "green"
+        }
+      ],
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "game_advancements:villager/used_ironhorse",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

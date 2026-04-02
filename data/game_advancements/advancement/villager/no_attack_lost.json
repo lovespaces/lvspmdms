@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": "華麗なステップで出口まで",
+    "description": "鍵を落とさず、刺されずに脱出する",
+    "frame": "goal",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:villager/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
