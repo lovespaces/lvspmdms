@@ -6,7 +6,8 @@
     "title": "安全策",
     "description": "人狼を凶暴化させずに脱出する",
     "frame": "task",
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "parent": "game_advancements:witness/welcome",
   "criteria": {

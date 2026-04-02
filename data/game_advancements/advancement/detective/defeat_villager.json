@@ -6,7 +6,8 @@
     "title": "長年やってきた勘（はずれ）",
     "description": "誤射する",
     "frame": "task",
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "parent": "game_advancements:detective/welcome",
   "criteria": {

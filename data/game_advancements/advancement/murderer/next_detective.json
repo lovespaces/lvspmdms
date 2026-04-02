@@ -6,7 +6,8 @@
     "title": "次の探偵は私です",
     "description": "探偵を倒して弓を持つ",
     "frame": "goal",
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "parent": "game_advancements:murderer/welcome",
   "criteria": {

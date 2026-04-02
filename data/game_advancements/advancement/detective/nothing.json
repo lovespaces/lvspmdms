@@ -6,7 +6,8 @@
     "title": "自宅警備員",
     "description": "弓を持つことなく勝利する",
     "frame": "goal",
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "parent": "game_advancements:detective/welcome",
   "criteria": {
