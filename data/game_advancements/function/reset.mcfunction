@@ -19,5 +19,17 @@ tag @a remove adv.not_key_lost
 tag @a remove adv.not_running
 tag @a remove adv.not_trade
 
+tag @a remove adv.lantern_witness
+
+tag @a remove adv.mur.uses_bandage
+
+tag @a remove adv.mur.win
+tag @a remove adv.mur.perfect
+
+tag @a remove adv.next_detective
+
+tag @a remove adv.first_kill_witness
+
 scoreboard players reset * adv.trashcount
 scoreboard players reset * adv.totemcount
+scoreboard players reset * adv.mur.kills

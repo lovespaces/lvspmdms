@@ -1,3 +1,5 @@
+# TODO:
+
 advancement grant @s only game_advancements:welcome
 
 advancement grant @s[tag=Murder] only game_advancements:murderer/welcome
@@ -23,3 +25,14 @@ advancement grant @s[tag=adv.ironhorse.bow, tag=adv.ironhorse.knife] only game_a
 
 advancement grant @s[tag=adv.not_key_lost, tag=adv.not_attack] only game_advancements:villager/no_attack_lost
 advancement grant @s[tag=adv.not_key_lost, tag=adv.not_attack, tag=adv.not_running, tag=adv.not_trade] only game_advancements:villager/no_attack_lost
+
+advancement grant @s[tag=adv.lantern_witness] only game_advancements:murderer/soul_lantern
+
+advancement grant @s[tag=adv.mur.uses_bandage] only game_advancements:murderer/uses_bandage
+
+advancement grant @s[tag=adv.mur.win] only game_advancements:murderer/win
+advancement grant @s[tag=adv.mur.perfect] only game_advancements:murderer/perfect
+
+advancement grant @s[tag=adv.next_detective] only game_advancements:murderer/next_detective
+
+advancement grant @s[tag=adv.first_kill_witness] only game_advancements:murderer/witness_first
