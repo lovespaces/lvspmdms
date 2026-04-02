@@ -1,3 +1,4 @@
+# villager
 tag @a remove adv.burp
 tag @a remove adv.more_burp
 
@@ -19,6 +20,7 @@ tag @a remove adv.not_key_lost
 tag @a remove adv.not_running
 tag @a remove adv.not_trade
 
+# murder
 tag @a remove adv.lantern_witness
 
 tag @a remove adv.mur.uses_bandage
@@ -29,6 +31,9 @@ tag @a remove adv.mur.perfect
 tag @a remove adv.next_detective
 
 tag @a remove adv.first_kill_witness
+
+# detective
+tag @a remove adv.det.nothing
 
 scoreboard players reset * adv.trashcount
 scoreboard players reset * adv.totemcount
