@@ -3,6 +3,7 @@ execute if entity @s[tag=IronHorse] run return run function item:specials/amulet
 kill @e[type=item, sort=nearest, limit=1]
 
 tag @s add IronHorse
+tag @s add adv.used_ironhorse
 scoreboard players set @s timer.iron_horse 200
 execute at @s run playsound block.anvil.place master @a ~ ~ ~
 

@@ -17,6 +17,7 @@ scoreboard players set $Phase stats 0
 scoreboard players set $Phase timer 300
 scoreboard objectives setdisplay sidebar
 
+execute as @a run function game_advancements:start
 execute as @a run function ender_chest:clear/fill
 
 execute as @a[team=innocent] run function escape:setup/
