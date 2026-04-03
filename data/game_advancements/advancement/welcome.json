@@ -6,7 +6,7 @@
     "title": "ラブスペ人狼",
     "description": "ラブスペ人狼に参加する",
     "background": "minecraft:block/crimson_planks",
-    "frame": "challenge",
+    "frame": "task",
     "announce_to_chat": false
   },
   "criteria": {
