@@ -43,3 +43,8 @@ advancement grant @s[tag=adv.wit.escape_with_lantern] only game_advancements:wit
 advancement grant @s[tag=adv.wit.invis] only game_advancements:witness/stealth_escape
 advancement grant @s[tag=adv.actual_invis] only game_advancements:witness/actual_stealth_escape
 advancement grant @s[tag=adv.wit.more_invis] only game_advancements:witness/more_stealth_escape
+
+# secret !!
+execute if predicate game_advancements:done_all run function game_advancements:special/all
+execute if predicate game_advancements:done_everything run function game_advancements:special/everything
+execute if predicate game_advancements:done_secret run function game_advancements:special/secret

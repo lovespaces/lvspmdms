@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": "完遂",
+    "description": "表示されている進捗を達成する",
+    "frame": "goal"
+  },
+  "parent": "game_advancements:welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

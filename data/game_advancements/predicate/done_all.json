@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "advancements": {
+        "game_advancements:detective/defeat_murder": true,
+        "game_advancements:detective/defeat_villager": true,
+        "game_advancements:detective/nothing": true,
+        "game_advancements:murderer/next_detective": true,
+        "game_advancements:murderer/soul_lantern": true,
+        "game_advancements:murderer/uses_bandage": true,
+        "game_advancements:murderer/win": true,
+        "game_advancements:murderer/witness_first": true,
+        "game_advancements:villager/burp": true,
+        "game_advancements:villager/lot_of_trashes": true,
+        "game_advancements:villager/no_attack_lost": true,
+        "game_advancements:villager/totem": true,
+        "game_advancements:villager/trash": true,
+        "game_advancements:villager/used_ironhorse": true,
+        "game_advancements:witness/escape_with_lantern": true,
+        "game_advancements:witness/no_ph2_escape": true,
+        "game_advancements:witness/stealth_escape": true
+      }
+    }
+  }
+}

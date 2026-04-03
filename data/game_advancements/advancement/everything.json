@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "ラブスペ人狼の回し者",
+    "description": "全進捗を達成する",
+    "frame": "challenge"
+  },
+  "parent": "game_advancements:all",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
