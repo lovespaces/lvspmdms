@@ -31,8 +31,17 @@ tag @a remove adv.defeat_villager
 tag @a remove adv.det.duplicate
 tag @a remove adv.det.rta
 
+# witness
+tag @a remove adv.noph2escape
+tag @a remove adv.ph2escape
+tag @a remove adv.wit.escape_with_lantern
+tag @a remove adv.wit.invis
+tag @a remove adv.actual_invis
+tag @a remove adv.wit.more_invis
+
 scoreboard players reset * adv.trashcount
 scoreboard players reset * adv.totemcount
 scoreboard players reset * adv.mur.kills
 scoreboard players reset * adv.arrowcount
 scoreboard players reset * adv.stopwatch
+scoreboard players reset * adv.drink_invis

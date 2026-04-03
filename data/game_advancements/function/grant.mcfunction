@@ -1,5 +1,3 @@
-# TODO: stealth_escape, actual, more, escape_with_lantern, ph2_escape, no_ph2_escape
-
 advancement grant @s only game_advancements:welcome
 
 advancement grant @s[tag=Murder] only game_advancements:murderer/welcome
@@ -39,3 +37,9 @@ advancement grant @s[tag=adv.det.duplicate] only game_advancements:detective/dup
 advancement grant @s[tag=adv.det.rta] only game_advancements:detective/rta
 
 # witness
+advancement grant @s[tag=adv.ph2escape] only game_advancements:witness/ph2_escape
+advancement grant @s[tag=adv.noph2escape] only game_advancements:witness/no_ph2_escape
+advancement grant @s[tag=adv.wit.escape_with_lantern] only game_advancements:witness/escape_with_lantern
+advancement grant @s[tag=adv.wit.invis] only game_advancements:witness/stealth_escape
+advancement grant @s[tag=adv.actual_invis] only game_advancements:witness/actual_stealth_escape
+advancement grant @s[tag=adv.wit.more_invis] only game_advancements:witness/more_stealth_escape

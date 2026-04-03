@@ -39,3 +39,5 @@ tag @a[team=maniac] add BadGuys
 tag @a[team=detective] add Detective
 tag @a[team=witness] add Witness
 tag @a[team=innocent] add Innocent
+
+tag @a[team=witness] add adv.noph2escape

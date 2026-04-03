@@ -12,3 +12,4 @@ scoreboard players set @a[team=!murder] bandage 0
 scoreboard players set @a[team=!murder] attack 0
 execute as @a[team=detective] if score @s attack matches 2.. run scoreboard players set @s attack 1
 playsound minecraft:entity.ghast.ambient master @s ~ ~ ~ 1.25
+tag @s remove adv.wit.escape_with_lantern
