@@ -8,8 +8,6 @@ title @a times 0s 3s 0s
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"目撃者の行方がわからなくなった。", "color":"white"}]
 tellraw @a [{"color": "red", "text":"[ラブスペ人狼] "}, {"text":"殺人鬼はあなたを一撃で殺すようになるだろう..."}]
 
-execute on attacker run function game_advancements:murder/kill_count
-
 scoreboard players set @a[team=!murder] bandage 0
 scoreboard players set @a[team=!murder] attack 0
 execute as @a[team=detective] if score @s attack matches 2.. run scoreboard players set @s attack 1

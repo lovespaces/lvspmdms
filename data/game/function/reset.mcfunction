@@ -53,5 +53,6 @@ difficulty peaceful
 gamerule show_advancement_messages true
 
 execute as @a run function ender_chest:reset
+execute as @a run function game_advancements:reset
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]

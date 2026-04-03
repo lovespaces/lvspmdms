@@ -1,5 +1,5 @@
 # 進捗達成チェック
-execute as @a[scores={is_playing=1..}] run function game_advancements:
+execute as @a[scores={is_playing=1..}] run function game_advancements:grant
 
 team empty spectator
 gamemode adventure @a
