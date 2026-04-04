@@ -12,6 +12,3 @@ execute as @a[team=!spectator] run function ender_chest:clear/
 execute as @a[team=!spectator] run function ender_chest:
 execute as @a[team=!spectator] run function item:
 execute as @a[team=!spectator] run function player:
-
-title @a[team=spectator] actionbar {"text":"※市民とVCをしている場合はミュートにしてください※", "color":"gold"}
-title @a[team=spectator] times 0 1s 0
