@@ -7,7 +7,6 @@ effect clear @a[team=spectator]
 
 gamemode adventure @a
 gamemode spectator @a[team=spectator]
-tag @a[team=spectator] add AlreadySpectator
 
 scoreboard players set @a is_playing 1
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"10秒後にゲームが始まります。"}]
