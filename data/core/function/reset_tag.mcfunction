@@ -1,4 +1,5 @@
 tag @s remove AlreadyTold
+tag @s remove AlreadySpectator
 tag @s remove AttackTemporary
 tag @s remove CanBuyBow
 tag @s remove ChestTemporary
