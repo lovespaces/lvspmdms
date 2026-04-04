@@ -6,7 +6,7 @@ execute at @s run playsound entity.item.break master @a ~ ~ ~
 execute at @s run particle item{item:{id:bow}} ~ ~1 ~ 0.25 0.25 0.25 0 5
 
 # 身内切りはやばいのでここでreturn
-execute on attacker if entity @s[team=murder] run return 0
+execute if entity @s[team=murder] run return 0
 # ナイフが握れないときは何もできない
 execute on attacker if entity @s[tag=NoKnife] run return 0
 execute as @a[team=murder] run tag @s add NoKnife
