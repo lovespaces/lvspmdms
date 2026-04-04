@@ -45,3 +45,6 @@ scoreboard players reset * adv.mur.kills
 scoreboard players reset * adv.arrowcount
 scoreboard players reset * adv.stopwatch
 scoreboard players reset * adv.drink_invis
+scoreboard players reset * adv.secret1
+scoreboard players reset * adv.secret2
+scoreboard players reset * adv.secret3
