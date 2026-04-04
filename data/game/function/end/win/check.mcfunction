@@ -1,6 +1,6 @@
 execute store result score $LeaveGame temporary run scoreboard players get * leave_game
 scoreboard players operation $AllPlayers stats -= $LeaveGame temporary
-scoreboard players operation $Dead stats -= $LeaveGame temporary
+scoreboard players operation $Dead stats += $LeaveGame temporary
 
 execute unless entity @a[tag=Murder, tag=!Dead] run return run function game:end/win/special/murder_killed
 
