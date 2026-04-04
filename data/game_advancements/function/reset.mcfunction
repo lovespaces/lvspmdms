@@ -39,6 +39,9 @@ tag @a remove adv.wit.invis
 tag @a remove adv.actual_invis
 tag @a remove adv.wit.more_invis
 
+# secret
+tag @a remove adv.secret3.escape
+
 scoreboard players reset * adv.trashcount
 scoreboard players reset * adv.totemcount
 scoreboard players reset * adv.mur.kills
