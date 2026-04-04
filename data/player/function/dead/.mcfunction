@@ -7,9 +7,9 @@ scoreboard players add $Dead stats 1
 scoreboard players remove $AllPlayers stats 1
 function game:end/win/check
 gamemode spectator @s
+team join spectator @s
 function game_advancements:murder/kill_count
 execute if score $Phase stats matches 3 run return 0
 execute if entity @s[team=detective] run function player:dead/detective
 execute if entity @s[team=witness] run function player:dead/witness
-team join spectator @s
 function log:spectator
