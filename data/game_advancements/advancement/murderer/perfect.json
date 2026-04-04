@@ -6,7 +6,8 @@
     "title": "完璧主義",
     "description": "探偵を含めて一人残らず倒す",
     "frame": "challenge",
-    "hidden": true
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "parent": "game_advancements:murderer/win",
   "criteria": {
