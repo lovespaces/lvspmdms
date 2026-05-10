@@ -8,7 +8,7 @@ advancement grant @s[tag=Innocent] only game_advancements:villager/welcome
 
 # villager
 advancement grant @s[tag=adv.burp] only game_advancements:villager/burp
-advancement grant @s[tag=adv.burp] only game_advancements:villager/burp_in_invis
+advancement grant @s[tag=adv.more_burp] only game_advancements:villager/burp_in_invis
 advancement grant @s[tag=adv.trash] only game_advancements:villager/trash
 advancement grant @s[tag=adv.lot_trashes] only game_advancements:villager/lot_of_trashes
 advancement grant @s[tag=adv.totem] only game_advancements:villager/totem
