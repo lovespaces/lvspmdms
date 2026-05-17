@@ -17,3 +17,6 @@ tag @s remove Witness
 tag @s remove Innocent
 
 tag @s remove nearChat
+
+tag @s remove UsingHopper
+tag @s remove CantUseHopper
