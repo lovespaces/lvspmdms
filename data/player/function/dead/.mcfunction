@@ -3,6 +3,7 @@ spawnpoint @s ^ ^ ^
 kill @s
 clear @s
 tag @s add Dead
+tag @s remove nearChat
 scoreboard players add $Dead stats 1
 scoreboard players remove $AllPlayers stats 1
 gamemode spectator @s

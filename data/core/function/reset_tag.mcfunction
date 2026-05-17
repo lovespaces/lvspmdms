@@ -15,3 +15,5 @@ tag @s remove BadGuys
 tag @s remove Detective
 tag @s remove Witness
 tag @s remove Innocent
+
+tag @s remove nearChat
