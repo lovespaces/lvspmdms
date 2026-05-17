@@ -19,4 +19,5 @@ tag @s remove Innocent
 tag @s remove nearChat
 
 tag @s remove UsingHopper
+tag @s remove UsedHopper
 tag @s remove CantUseHopper
