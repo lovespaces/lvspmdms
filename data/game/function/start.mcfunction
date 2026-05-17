@@ -1,4 +1,5 @@
 gamerule show_advancement_messages false
+gamerule send_command_feedback false
 function game:reset
 clear @a
 

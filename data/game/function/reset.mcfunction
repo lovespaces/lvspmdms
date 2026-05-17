@@ -53,6 +53,7 @@ execute as @a run attribute @s attack_speed base set 1024
 difficulty peaceful
 
 gamerule show_advancement_messages true
+gamerule send_command_feedback true
 
 execute as @a run function ender_chest:reset
 execute as @a run function game_advancements:reset
