@@ -19,6 +19,7 @@ scoreboard players reset * timer.iron_horse
 scoreboard players reset * timer.key
 scoreboard players reset * timer.knife
 scoreboard players reset * timer.totem
+scoreboard players reset * timer.megaphone
 
 scoreboard players reset * bandage
 scoreboard players reset * attack
@@ -32,6 +33,7 @@ scoreboard players reset * dropped.bandage
 scoreboard players reset * dropped.crystall_ball
 scoreboard players reset * dropped.dead_report
 scoreboard players reset * dropped.detonator
+scoreboard players reset * dropped.hopper
 
 scoreboard players reset * used.lingering
 scoreboard players reset * used.splash

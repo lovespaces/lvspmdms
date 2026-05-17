@@ -7,5 +7,3 @@ execute if score @s dropped.hopper matches 1.. run function item:specials/megaph
 execute if predicate item:has_invis run function item:specials/potion/invisible
 execute if score @s used.splash matches 1.. run function item:specials/potion/splash
 execute if score @s used.lingering matches 1.. run function item:specials/potion/lingering
-
-execute as @a[tag=UsedHopper] run function item:specials/megaphone/used
