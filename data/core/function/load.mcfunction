@@ -37,3 +37,5 @@ gamerule spawner_blocks_work false
 gamerule locator_bar false
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"読み込みが終わりました", "color":"white"}]
+tellraw @a " "
+function log:tips/reset_settings
