@@ -1,6 +1,5 @@
 gamemode spectator @s
 function log:escape/success
-function player:dead/tag_add
 team join spectator @s
 tag @s add Escaped
 

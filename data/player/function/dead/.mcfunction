@@ -2,7 +2,6 @@ function summon:armor_stand/dead_body
 spawnpoint @s ^ ^ ^
 kill @s
 clear @s
-function player:dead/tag_add
 tag @s add Dead
 tag @s remove nearChat
 scoreboard players add $Dead stats 1
