@@ -15,8 +15,8 @@ scoreboard players set $Phase stats 1
 function log:role_reveal
 execute as @a at @s run playsound entity.ender_dragon.hurt master @s ~ ~ ~ 0.75
 
-give @a cooked_beef 10
-difficulty normal
+give @a sweet_berries 3
+difficulty hard
 execute as @a[team=!spectator] run function ender_chest:key/
 
 execute as @a[team=innocent] run function escape:setup/
