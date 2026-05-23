@@ -2,7 +2,7 @@ advancement revoke @s only item:attack_entity
 execute unless score $Phase stats matches 1..2 run return 0
 execute on attacker if entity @s[tag=IronHorse] run return run function player:iron_horse
 
-clear @s iron_sword
+execute on attacker run clear @s iron_sword
 execute at @s run playsound entity.item.break master @a ~ ~ ~
 execute at @s run particle item{item:{id:bow}} ~ ~1 ~ 0.25 0.25 0.25 0 5
 
@@ -22,7 +22,7 @@ tag @s remove adv.not_attack
 scoreboard players remove @s attack 1
 execute on attacker run effect give @s slowness 3 2
 execute on attacker run function player:attacked/is_final_phase
-execute on attacker run tag @s add NoKnife
+execute on attacker run scoreboard players set @s timer.knife 140
 
 execute if score @s attack matches ..-1 run execute at @s run function log:dead
 execute if score @s attack matches ..-1 run return run execute at @s run function player:dead/
