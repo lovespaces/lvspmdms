@@ -24,7 +24,7 @@ scoreboard players set $InnocentLostKey settings 20
 scoreboard players set $MegaphoneTimeLimit settings 600
 scoreboard players set $MegaphoneInterval settings 400
 
-scoreboard players set $ManiacBowCharging settings 300
+scoreboard players set $ManiacBowCharging settings 301
 
 scoreboard players set $SuddenDeathTick settings 1800
 
