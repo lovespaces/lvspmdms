@@ -1,6 +1,6 @@
 # ワールド内でいじれる数値たち
 scoreboard players set $MurderNum settings 1
-scoreboard players set $ManiacNum settings 0
+scoreboard players set $ManiacNum settings 1
 
 scoreboard players set $KeySeconds settings 60
 scoreboard players set $MaxOpenKey settings 9
@@ -23,5 +23,7 @@ scoreboard players set $InnocentLostKey settings 20
 
 scoreboard players set $MegaphoneTimeLimit settings 600
 scoreboard players set $MegaphoneInterval settings 400
+
+scoreboard players set $ManiacBowCharging settings 300
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"デフォルトのゲーム設定が反映されました", "color":"yellow"}]
