@@ -8,7 +8,7 @@ execute unless entity @a[team=murder] run return run function game:end/win/speci
 execute if entity @a[team=innocent] run return 0
 execute if entity @a[team=witness] run return 0
 
-execute if score $Mistake stats = $AllInnocent stats run return run function game:end/win/special/all_mistake
+execute if score $Mistake stats = $FixedAllInnocent stats run return run function game:end/win/special/all_mistake
 
 execute if score $Mistake stats >= $HalfInnocent stats run return run function game:end/win/special/mistake
 

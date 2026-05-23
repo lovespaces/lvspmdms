@@ -14,6 +14,12 @@ function escape:storage/update
 scoreboard objectives add temporary dummy
 scoreboard objectives add is_playing dummy
 
+bossbar add lovespaces:mdms_end_timer "ゲームが終了するまで..."
+bossbar set lovespaces:mdms_end_timer color red
+bossbar set lovespaces:mdms_end_timer players @a
+bossbar set lovespaces:mdms_end_timer visible false
+bossbar set lovespaces:mdms_end_timer style notched_6
+
 gamerule advance_time false
 gamerule advance_weather false
 gamerule show_advancement_messages false

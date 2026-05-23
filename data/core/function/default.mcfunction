@@ -26,4 +26,6 @@ scoreboard players set $MegaphoneInterval settings 400
 
 scoreboard players set $ManiacBowCharging settings 300
 
+scoreboard players set $SuddenDeathTick settings 1800
+
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"デフォルトのゲーム設定が反映されました", "color":"yellow"}]

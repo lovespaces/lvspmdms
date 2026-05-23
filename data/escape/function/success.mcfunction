@@ -9,7 +9,7 @@ scoreboard players remove $AllPlayers stats 1
 function game:end/win/check
 
 execute if score $Phase stats matches 3.. run return 0
-
+function player:dead/innocent_scoreboard
 execute unless entity @s[tag=Witness] run return 0
 scoreboard players remove $Escaped stats 1
 execute if predicate item:already_invis run tag @s add adv.wit.invis

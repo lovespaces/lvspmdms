@@ -14,4 +14,5 @@ function game:end/win/check
 execute if score $Phase stats matches 3.. run return 0
 execute if entity @s[tag=Detective] run function player:dead/detective
 execute if entity @s[tag=Witness] unless score $Phase stats matches 2.. run function player:dead/witness
+function player:dead/innocent_scoreboard
 function log:spectator

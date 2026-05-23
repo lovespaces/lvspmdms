@@ -38,6 +38,8 @@ scoreboard players reset * dropped.hopper
 scoreboard players reset * used.lingering
 scoreboard players reset * used.splash
 
+bossbar set lovespaces:mdms_end_timer visible false
+
 team join nothing @a
 
 execute as @a run function core:reset_tag
