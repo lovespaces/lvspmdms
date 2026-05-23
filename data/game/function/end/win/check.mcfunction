@@ -1,3 +1,4 @@
+# TODO: ここ全部修正
 execute store result score $LeaveGame temporary run scoreboard players get * leave_game
 scoreboard players operation $AllPlayers stats -= $LeaveGame temporary
 scoreboard players operation $Dead stats += $LeaveGame temporary
