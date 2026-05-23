@@ -2,6 +2,7 @@ function summon:armor_stand/dead_body
 spawnpoint @s ^ ^ ^
 kill @s
 clear @s
+function player:dead/tag_add
 tag @s add Dead
 tag @s remove nearChat
 scoreboard players add $Dead stats 1
@@ -10,7 +11,7 @@ gamemode spectator @s
 team join spectator @s
 function game_advancements:murder/kill_count
 function game:end/win/check
-execute if score $Phase stats matches 3 run return 0
-execute if entity @s[team=detective] run function player:dead/detective
-execute if entity @s[team=witness] run function player:dead/witness
+execute if score $Phase stats matches 3.. run return 0
+execute if entity @s[tag=Detective] run function player:dead/detective
+execute if entity @s[tag=Witness] unless score $Phase stats matches 2.. run function player:dead/witness
 function log:spectator
