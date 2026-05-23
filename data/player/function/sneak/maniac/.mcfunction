@@ -5,3 +5,6 @@ execute if score @s sneaking >= $ManiacBowCharging settings run return run funct
 
 execute if entity @s[tag=CanShootPlayers] run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"矢を当ててもダメージを加えられなくなった。15秒しゃがんでからもしゃがみ続けよう", "color":"white"}]
 tag @s remove CanShootPlayers
+
+title @s times 0s 5s 1s
+title @s actionbar [{"score":{"name":"@s", "objective":"sneaking"}}, " / ", {"score":{"name":"$ManiacBowCharging", "objective":"settings"}}]
