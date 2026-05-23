@@ -6,7 +6,7 @@ tag @s add Escaped
 
 scoreboard players add $Escaped stats 1
 scoreboard players remove $AllPlayers stats 1
-function game:end/win/check
+function game:end/win/is_gone
 
 execute if score $Phase stats matches 3.. run return 0
 function player:dead/innocent_scoreboard

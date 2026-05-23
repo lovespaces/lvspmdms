@@ -10,7 +10,7 @@ scoreboard players remove $AllPlayers stats 1
 gamemode spectator @s
 team join spectator @s
 function game_advancements:murder/kill_count
-function game:end/win/check
+function game:end/win/is_gone
 execute if score $Phase stats matches 3.. run return 0
 execute if entity @s[tag=Detective] run function player:dead/detective
 execute if entity @s[tag=Witness] unless score $Phase stats matches 2.. run function player:dead/witness

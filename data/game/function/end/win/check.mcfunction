@@ -1,12 +1,21 @@
-# TODO: ここ全部修正
-execute store result score $LeaveGame temporary run scoreboard players get * leave_game
-scoreboard players operation $AllPlayers stats -= $LeaveGame temporary
-scoreboard players operation $Dead stats += $LeaveGame temporary
+# execute store result score $LeaveGame temporary run scoreboard players get * leave_game
+execute store result score $DeadInnocent temporary if entity @a[tag=Dead, tag=Innocent]
+execute store result score $EscapedInnocent temporary if entity @a[tag=Escaped, tag=Innocent]
+execute store result score $DeadWitness temporary if entity @a[tag=Dead, tag=Witness]
+execute store result score $EscapedWitness temporary if entity @a[tag=Escaped, tag=Witness]
 
-execute unless entity @a[team=murder] run return run function game:end/win/special/murder_killed
+scoreboard players operation $Online temporary = $DeadInnocent temporary
+scoreboard players operation $Online temporary += $EscapedInnocent temporary
+scoreboard players operation $Online temporary += $DeadWitness temporary
+scoreboard players operation $Online temporary += $EscapedWitness temporary
 
-execute if entity @a[team=innocent] run return 0
-execute if entity @a[team=witness] run return 0
+scoreboard players operation $Calc temporary = $FixedAllInnocent stats
+scoreboard players operation $Calc temporary -= $Online temporary
+
+scoreboard players operation $FixedAllInnocent stats -= $Calc temporary
+scoreboard players operation $Dead stats += $Calc temporary
+
+execute if score $Dead stats < $HalfInnocent stats unless entity @a[team=murder] run return run function game:end/win/innocent
 
 execute if score $Mistake stats = $FixedAllInnocent stats run return run function game:end/win/special/all_mistake
 
@@ -14,6 +23,6 @@ execute if score $Mistake stats >= $HalfInnocent stats run return run function g
 
 execute if score $Escaped stats matches 0 run return run function game:end/win/special/all_killed
 
-execute if score $Escaped stats > $HalfInnocent stats run return run function game:end/win/innocent
+execute if score $Escaped stats >= $HalfInnocent stats run return run function game:end/win/innocent
 
-execute if score $Dead stats > $HalfInnocent stats run function game:end/win/murder
+execute if score $Dead stats >= $HalfInnocent stats run return run function game:end/win/murder
