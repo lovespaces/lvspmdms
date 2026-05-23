@@ -1,6 +1,7 @@
 tag @s remove AlreadyTold
 tag @s remove AttackTemporary
 tag @s remove CanBuyBow
+tag @s remove CanShootPlayers
 tag @s remove ChestTemporary
 tag @s remove Dead
 tag @s remove Escaped

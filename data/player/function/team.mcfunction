@@ -33,8 +33,10 @@ team join detective @r[team=nothing]
 team join innocent @a[team=nothing]
 
 tag @a[team=detective] add CanBuyBow
+tag @a[team=detective] add CanShootPlayers
 tag @a[team=maniac] add CanBuyBow
 execute unless entity @a[team=detective] run tag @a[team=!spectator] add CanBuyBow
+execute unless entity @a[team=detective] run tag @a[team=!spectator] add CanShootPlayers
 
 tag @a[team=murder] add Murder
 tag @a[team=maniac] add Maniac
