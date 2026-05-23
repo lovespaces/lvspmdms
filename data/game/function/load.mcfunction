@@ -30,7 +30,7 @@ team modify witness collisionRule never
 team modify innocent collisionRule never
 
 scoreboard objectives add stats dummy
-scoreboard objectives add settings dummy
+scoreboard objectives add settings dummy "ゲーム設定"
 scoreboard objectives add attack dummy
 
 scoreboard objectives add leave_game custom:leave_game
