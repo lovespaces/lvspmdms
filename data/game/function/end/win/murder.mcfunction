@@ -1,4 +1,4 @@
 function game:end/win/
-title @a title {"text":"殺人鬼の勝ち！", "color":"red"}
-tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"red", "text":"殺人鬼の勝ち！"}]
+title @a title {"text":"人狼の勝ち！", "color":"red"}
+tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"red", "text":"人狼の勝ち！"}]
 tag @a[tag=Murder] add adv.mur.win
