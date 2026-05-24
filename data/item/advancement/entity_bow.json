@@ -6,6 +6,11 @@
         "damage": {
           "source_entity": {
             "type": "minecraft:player",
+            "nbt": {
+              "Tags": [
+                "CanShootPlayers"
+              ]
+            },
             "equipment": {
               "mainhand": {
                 "items": "minecraft:bow"

@@ -3,8 +3,6 @@ execute on attacker if entity @s[tag=IronHorse] run return run function player:i
 execute on attacker run clear @s bow
 execute on attacker run clear @s arrow
 
-execute on attacker unless entity @s[tag=CanShootPlayers] run return 0
-
 function player:attacked/ {"weapon": "弓"}
 execute on attacker at @s run playsound entity.item.break master @a ~ ~ ~
 execute on attacker at @s run particle item{item:{id:bow}} ~ ~1 ~ 0.25 0.25 0.25 0 5
