@@ -17,7 +17,7 @@ execute as @a at @s run playsound entity.ender_dragon.hurt master @s ~ ~ ~ 0.75
 
 give @a sweet_berries 3
 difficulty hard
-effect give @a[team=!spectator] hunger 2 255
+effect give @a[team=!spectator, team=!murder] hunger 2 255
 execute as @a[team=!spectator] run function ender_chest:key/
 
 execute as @a[team=innocent] run function escape:setup/
