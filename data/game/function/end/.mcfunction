@@ -15,3 +15,4 @@ execute as @a[tag=Admin] run function admin:give/
 scoreboard objectives setdisplay sidebar settings
 
 team join nothing @a
+scoreboard players enable @a be_spectator

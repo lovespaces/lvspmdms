@@ -14,6 +14,9 @@ function escape:storage/update
 scoreboard objectives add temporary dummy
 scoreboard objectives add is_playing dummy
 
+scoreboard objectives add be_spectator trigger "観戦者化"
+scoreboard players enable @a be_spectator
+
 bossbar add lovespaces:mdms_end_timer "ゲームが終了するまで..."
 bossbar set lovespaces:mdms_end_timer color red
 bossbar set lovespaces:mdms_end_timer players @a

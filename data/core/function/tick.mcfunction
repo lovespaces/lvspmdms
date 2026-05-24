@@ -1,5 +1,5 @@
 execute if score $Phase stats matches 0.. run function game:
-execute if score $Phase stats = $Phase stats as @a[team=!nothing] run team join nothing @s
+execute if score $Phase stats = $Phase stats run function core:before_game/
 
 function admin:
 

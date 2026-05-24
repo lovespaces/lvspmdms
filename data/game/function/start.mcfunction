@@ -24,3 +24,5 @@ scoreboard objectives setdisplay sidebar
 execute as @a run function ender_chest:clear/fill
 
 execute as @a run function game_advancements:start
+
+scoreboard players reset @a be_spectator
