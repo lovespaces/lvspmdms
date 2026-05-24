@@ -6,7 +6,7 @@ title @a title {"text":"目撃者がいなくなった！", "color":"red"}
 title @a times 0s 3s 0s
 
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"目撃者の行方がわからなくなった。", "color":"white"}]
-tellraw @a [{"color": "red", "text":"[ラブスペ人狼] "}, {"text":"殺人鬼はあなたを一撃で殺すようになるだろう..."}]
+tellraw @a [{"color": "red", "text":"[ラブスペ人狼] "}, {"text":"人狼はあなたを一撃で殺すようになるだろう..."}]
 
 scoreboard players set @a[team=!murder] bandage 0
 scoreboard players set @a[team=!murder] attack 0
