@@ -6,9 +6,9 @@ title @a[team=innocent] title ["あなたは ",{"text":"市民", "bold":true},{"
 
 title @a[team=murder] subtitle "脱出を邪魔しつつ全員倒そう"
 title @a[team=maniac] subtitle "市民と探偵の邪魔をしよう"
-title @a[team=detective] subtitle "手がかりを見つけて殺人鬼を倒そう"
+title @a[team=detective] subtitle "手がかりを見つけて人狼を倒そう"
 title @a[team=witness] subtitle "すべてのことに注意しつつ脱出を目指そう"
-title @a[team=innocent] subtitle "殺人鬼に気をつけて脱出しよう"
+title @a[team=innocent] subtitle "人狼に気をつけて脱出しよう"
 
 tellraw @a[team=murder] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは ", "color":"white"}, {"text":"人狼", "color":"red", "bold":true}, {"text":" です", "color":"white"}]
 tellraw @a[team=maniac] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは ", "color":"white"}, {"text":"狂人", "color":"red", "bold":true}, {"text":" です", "color":"white"}]
