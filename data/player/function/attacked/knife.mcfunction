@@ -22,7 +22,6 @@ tag @s remove adv.not_attack
 scoreboard players remove @s attack 1
 execute on attacker run effect give @s slowness 3 2
 execute on attacker run function player:attacked/is_final_phase
-execute on attacker run scoreboard players set @s timer.knife 140
 
 execute if score @s attack matches ..-1 run execute at @s run function log:dead
 execute if score @s attack matches ..-1 run return run execute at @s run function player:dead/
