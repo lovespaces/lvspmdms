@@ -15,3 +15,7 @@ tellraw @a[team=maniac] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text
 tellraw @a[team=detective] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは ", "color":"white"}, {"text":"探偵", "color":"aqua", "bold":true}, {"text":" です", "color":"white"}]
 tellraw @a[team=witness] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは ", "color":"white"}, {"text":"目撃者", "color":"gray", "bold":true}, {"text":" です", "color":"white"}]
 tellraw @a[team=innocent] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは ", "color":"white"}, {"text":"市民", "color":"white", "bold":true}, {"text":" です", "color":"white"}]
+
+execute unless score $MurderNum settings matches 2.. run return 0
+tellraw @a[team=murder] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"selector":"@a[team=murder]","separator":", ", "color":"gold"}, {"text":"が今回の人狼です。", "color":"white"}]
+tellraw @a[team=murder] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"※上記のメッセージは人狼同士のみ確認できます。※", "color":"gray"}]
