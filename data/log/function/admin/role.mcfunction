@@ -1,4 +1,4 @@
-tellraw @s [{"color":"red", "text":"  殺人鬼: "}]
+tellraw @s [{"color":"red", "text":"  人狼: "}]
 tellraw @s [{"text":"    "}, {"selector":"@a[team=murder]","separator":", ", "color":"white"}]
 tellraw @s [{"color":"red", "text":"  狂人: "}]
 tellraw @s [{"text":"    "}, {"selector":"@a[team=maniac]","separator":", ", "color": "white"}]

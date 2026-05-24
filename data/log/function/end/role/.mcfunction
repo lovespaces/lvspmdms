@@ -1,7 +1,7 @@
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"役職一覧"}]
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"死んだプレイヤーは灰色、脱出したプレイヤーは黄色で表示されます。"}]
 
-tellraw @a [{"color":"red", "text":"  殺人鬼: "}]
+tellraw @a [{"color":"red", "text":"  人狼: "}]
 tellraw @a [{"text":"    "}, {"selector":"@a[team=murder, tag=!Dead]","separator":"\n", "color":"white"}, {"selector":"@a[team=spectator, tag=Murder, tag=Dead]", "separator":"\n", "color":"gray"}]
 tellraw @a [{"color":"red", "text":"  狂人: "}]
 tellraw @a [{"text":"    "}, {"selector":"@a[team=maniac, tag=!Dead]","separator":"\n", "color": "white"}, {"selector":"@a[team=spectator, tag=Maniac, tag=Dead]", "color":"gray"}]
