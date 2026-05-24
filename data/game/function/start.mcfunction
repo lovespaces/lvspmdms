@@ -3,6 +3,8 @@ gamerule send_command_feedback false
 function game:reset
 clear @a
 
+team join spectator @a[tag=Spectator]
+
 effect give @a resistance infinite 255 true
 effect clear @a[team=spectator]
 
