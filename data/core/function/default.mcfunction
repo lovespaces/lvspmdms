@@ -28,4 +28,6 @@ scoreboard players set $ManiacBowCharging settings 301
 
 scoreboard players set $SuddenDeathTick settings 1800
 
+scoreboard players set $IsNearVoice settings 0
+
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"デフォルトのゲーム設定が反映されました", "color":"yellow"}]
