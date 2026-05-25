@@ -8,3 +8,5 @@ scoreboard objectives add used.splash used:splash_potion
 scoreboard objectives add used.lingering used:lingering_potion
 
 scoreboard objectives add bandage dummy
+
+scoreboard objectives add temporary.copper_chest dummy

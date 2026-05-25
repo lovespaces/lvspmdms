@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:emerald"
+  ],
+  "result": {
+    "id": "minecraft:copper_chest",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "ランダムアイテム",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "※人狼・狂人向けアイテム※",
+          "color": "red",
+          "italic": false
+        },
+        "",
+        {
+          "text": "手に取ると、脱出アイテムの素材／脱出アイテム",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "を入手できる。",
+          "color": "white",
+          "italic": false
+        },
+        "",
+        {
+          "text": "※白側は作成してもエメラルドのみ返ってきます※",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1
+  }
+}

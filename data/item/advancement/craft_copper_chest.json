@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "item:copper_chest"
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:craft/copper_chest"
+  }
+}
