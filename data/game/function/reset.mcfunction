@@ -7,6 +7,7 @@ scoreboard players reset * sneaking
 scoreboard players reset * temporary
 scoreboard players reset * temporary.enderchest
 scoreboard players reset * temporary.enderchest_auth
+scoreboard players reset * temporary.copper_chest
 
 scoreboard players reset * roll
 scoreboard players reset * roll.emerald
