@@ -66,5 +66,36 @@
       ]
     }
   ],
-  "functions": []
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:lore": [
+          {
+            "text": "脱出アイテムの交換に必要な素材。",
+            "color": "yellow",
+            "italic": false
+          },
+          "",
+          [
+            {
+              "text": "[脱出アイテム]",
+              "color": "yellow",
+              "italic": false
+            },
+            {
+              "text": "の村人とアイテムを交換することで、",
+              "color": "white",
+              "italic": false
+            }
+          ],
+          {
+            "text": "脱出アイテムと交換できる。",
+            "color": "white",
+            "italic": false
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -71,12 +71,13 @@
           "color": "white",
           "italic": false
         },
+        "",
         {
           "text": "[怪しい村人]",
           "type": "text",
           "extra": [
             {
-              "text": " にゴミを ",
+              "text": "にゴミを",
               "color": "white",
               "italic": false
             },
@@ -87,7 +88,7 @@
               "italic": false
             },
             {
-              "text": " 個以上集めて交換すると良いものが貰えるらしい",
+              "text": "個以上集めて交換すると",
               "type": "text",
               "color": "white",
               "italic": false
@@ -95,6 +96,12 @@
           ],
           "color": "aqua",
           "italic": false
+        },
+        {
+            "text": "良いものが貰えるらしい。",
+            "type": "text",
+            "color": "white",
+            "italic": false
         }
       ],
       "mode": "append"
