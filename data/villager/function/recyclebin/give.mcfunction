@@ -1,5 +1,5 @@
 execute at @s run playsound entity.villager.celebrate master @s ~ ~ ~
-$give @s emerald $(TrashCount)
+$give @s emerald[lore=[{"color":"white","italic":false,"text":"普通のエメラルド。"}," ",{"color":"white","italic":false,"text":"村人とのアイテム交換に使用ができる。"}," ",{"color":"red","italic":false,"text":"人狼・狂人は、エメラルドをインベントリの"},{"color":"red","italic":false,"text":"クラフト欄に入れることで、脱出アイテムを"},{"color":"red","italic":false,"text":"ランダムで入手することができる。"}]] $(TrashCount)
 $clear @s *[custom_data={MdmsItem:true, Trash:true}] $(ClearTrashes)
 scoreboard players add @s adv.trashcount 1
 execute at @s run playsound entity.player.levelup master @s ~ ~ ~
