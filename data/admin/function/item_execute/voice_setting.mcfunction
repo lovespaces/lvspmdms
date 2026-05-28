@@ -1,4 +1,4 @@
-kill @s
+function item:kill
 scoreboard players add $IsNearVoice settings 1
 execute at @s run item replace entity @a[tag=Admin, sort=nearest, limit=1] weapon.mainhand with paper[custom_name={"color":"yellow","italic":false,"text":"近距離ボイチャ"},lore=[[{"text": "", "italic":false},{"color":"gold","text":"[投] "},{"color":"white","text":"近距離ボイチャのオン／オフをする紙"}]],custom_data={IsVoiceSetting:1b},enchantment_glint_override=true] 1
 execute if score $IsNearVoice settings matches 2 run return run function admin:item_execute/voice/
