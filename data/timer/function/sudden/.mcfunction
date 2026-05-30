@@ -10,12 +10,14 @@ scoreboard players operation $Seconds timer = $SuddenDeath timer
 scoreboard players operation $Seconds timer /= $Tick timer
 scoreboard players add $Seconds timer 1
 
-title @a times 0 5s 1s
+title @a times 0 2s 1s
 title @a title {"score":{"name":"$Seconds", "objective":"timer"}, "color":"yellow"}
 execute if score $SFXTick timer matches 20 run execute as @a at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~
 execute if score $SFXTick timer matches 20 run scoreboard players reset $SFXTick timer
 
 execute unless score $SuddenDeath timer matches ..0 run return 0
 
-execute as @a[team=innocent] at @s run function player:dead/
-execute as @a[team=witness] at @s run function player:dead/
+scoreboard players operation $Dead stats += $AllInnocent stats
+scoreboard players operation $AllPlayers stats -= $AllInnocent stats
+scoreboard players set $AllPlayers stats 0
+function game:end/win/check
