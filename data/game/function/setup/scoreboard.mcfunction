@@ -23,5 +23,7 @@ scoreboard players set $Dead stats 0
 scoreboard players set $Mistake stats 0
 scoreboard players set $Escaped stats 0
 
+scoreboard players set @a[team=!spectator] villager.escape_trade 0
+
 function ender_chest:armor_stand/
 function ender_chest:roll/setup

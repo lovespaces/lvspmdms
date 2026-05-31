@@ -1,4 +1,3 @@
-advancement revoke @s only villager:talk_to_recyclebin
 execute store result score @s temporary run clear @s *[custom_data={MdmsItem:true, Trash:true}] 0
 execute if score @s temporary < $HowManyTrashes settings run return run function villager:recyclebin/failed
 execute store result storage lovespaces:mdms Temporary.ClearTrashes int 1 run scoreboard players get @s temporary

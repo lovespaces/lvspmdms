@@ -93,8 +93,38 @@
             "text": "脱出アイテムと交換できる。",
             "color": "white",
             "italic": false
+          },
+          " ",
+          {
+            "text": "なお、",
+            "extra": [
+              {
+                "text": "[怪しい村人]",
+                "color": "aqua",
+                "italic": false
+              },
+              {
+                "text": "に素材を持ちながら",
+                "color": "white",
+                "italic": false
+              }
+            ],
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "話しかけると買い取ってくれるようだ。",
+            "color": "white",
+            "italic": false
           }
         ]
+      }
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "MdmsItem": true,
+        "EscapeTrade": true
       }
     }
   ]

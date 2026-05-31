@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "villager:recyclebin/"
+    "function": "villager:recyclebin/check"
   }
 }
