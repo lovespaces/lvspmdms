@@ -32,3 +32,4 @@ scoreboard players set $SuddenDeathTick settings 1800
 scoreboard players set $IsNearVoice settings 0
 
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"デフォルトのゲーム設定が反映されました", "color":"yellow"}]
+tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"※デフォルトのゲーム設定は近距離チャットが無効化されます※", "color":"yellow"}]
