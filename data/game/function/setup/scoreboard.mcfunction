@@ -1,5 +1,3 @@
-# TODO: 狂人用のスコアボード設定
-
 scoreboard players set @a[team=!murder, team=!spectator] bandage 1
 scoreboard players set @a[team=!spectator, team=!murder] attack 1
 
