@@ -12,7 +12,7 @@ execute if score $SFXTick timer matches 20 run scoreboard players reset $SFXTick
 execute unless score $Phase timer matches ..0 run return 0
 
 scoreboard players set $Phase stats 1
-function log:role_reveal
+function log:role/reveal
 execute as @a at @s run playsound entity.ender_dragon.hurt master @s ~ ~ ~ 0.75
 
 give @a sweet_berries 3

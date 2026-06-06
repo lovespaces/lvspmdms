@@ -13,6 +13,7 @@ gamemode spectator @a[team=spectator]
 execute if score $IsNearVoice settings matches 1.. run function game:setup/nearchat
 
 scoreboard players set @a is_playing 1
+function log:role/start
 tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"15秒後にゲームが始まります。"}]
 
 function player:team
