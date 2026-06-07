@@ -27,7 +27,7 @@ gamerule advance_time false
 gamerule advance_weather false
 gamerule show_advancement_messages false
 gamerule show_death_messages false
-gamerule immediate_respawn true
+gamerule immediate_respawn false
 gamerule keep_inventory true
 gamerule mob_griefing false
 gamerule spawn_mobs false
