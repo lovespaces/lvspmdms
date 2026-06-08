@@ -3,5 +3,4 @@ execute unless predicate item:already_invis run effect give @s regeneration 1 25
 
 execute if score @s sneaking >= $ManiacBowCharging settings run return run function player:sneak/maniac/can_shoot
 
-title @s times 0s 5s 1s
-title @s actionbar [{"score":{"name":"@s", "objective":"sneaking"}}, " / ", {"score":{"name":"$ManiacBowCharging", "objective":"settings"}}]
+function player:sneak/actionbar {"text": "弓をチャージ中... ", "prc_scoreboard": "sneaking", "set_scoreboard": "ManiacBowCharging"}
