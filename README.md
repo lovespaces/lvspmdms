@@ -5,5 +5,7 @@
 [こちら](https://github.com/lovespaces/lvspmdms/wiki/ルール) から
 
 ## ライセンス
-本プロジェクトは MIT ライセンス のもとで公開されています。\
-改変、もしくはこのデータパックを利用したものをいかなる形で配布・公開される場合は、[このリポジトリ](https://github.com/lovespaces/lvspmdms)へのリンクを記載していただけると幸いです。
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) のもとで公開しています。  
+
+利用、改変、再配布は自由ですが、いかなる媒体での公開・配布時は必ず[このリポジトリ](https://github.com/lovespaces/lvspmdms)を記載するようにして下さい。
