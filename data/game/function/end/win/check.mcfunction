@@ -16,20 +16,14 @@ execute if score $Calc temporary matches 1.. run function game:end/win/decrease
 
 # デバッグ用に計算に使ったスコアボードを表示するfunctionをソレを実行するためのtellraw設置
 
-# function game:end/win/innocent
-execute if score $Dead stats < $HalfInnocent stats unless entity @a[team=murder] run return run tellraw @a "innocent win !"
+execute if score $Dead stats < $HalfInnocent stats unless entity @a[team=murder] run return run function game:end/win/innocent
 
-# function game:end/win/special/all_mistake
-execute if score $Mistake stats = $FixedAllInnocent stats run return run tellraw @a "detective all_mistake !"
+execute if score $Mistake stats = $FixedAllInnocent stats run return run function game:end/win/special/all_mistake
 
-# function game:end/win/special/mistake
-execute if score $Mistake stats >= $HalfInnocent stats run return run tellraw @a "most is mistake!"
+execute if score $Mistake stats >= $HalfInnocent stats run return run function game:end/win/special/mistake
 
-# function game:end/win/special/all_killed
-execute if score $Escaped stats matches 0 run return run tellraw @a "everyone dead!"
+execute if score $Escaped stats matches 0 run return run function game:end/win/special/all_killed
 
-# function game:end/win/innocent
-execute if score $Escaped stats >= $HalfInnocent stats run return run tellraw @a "most is escaped!"
+execute if score $Escaped stats >= $HalfInnocent stats run return run function game:end/win/innocent
 
-# function game:end/win/murder
-execute if score $Dead stats >= $HalfInnocent stats run return run tellraw @a "most is dead!"
+execute if score $Dead stats >= $HalfInnocent stats run return run function game:end/win/murder
