@@ -6,8 +6,7 @@
     "title": "目指せ脱出",
     "description": "村人になる",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "announce_to_chat": false
   },
   "parent": "game_advancements:welcome",
   "criteria": {

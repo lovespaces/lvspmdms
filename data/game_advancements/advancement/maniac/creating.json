@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block"
+    },
+    "title": "制作中",
+    "description": "狂人向け進捗は制作中です。乞うご期待。",
+    "frame": "challenge",
+    "announce_to_chat": false
+  },
+  "parent": "game_advancements:maniac/welcome",
+  "criteria": {
+    "function": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

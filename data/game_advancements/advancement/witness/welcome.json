@@ -6,8 +6,7 @@
     "title": "私は見てしまった",
     "description": "目撃者になる",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "announce_to_chat": false
   },
   "parent": "game_advancements:welcome",
   "criteria": {

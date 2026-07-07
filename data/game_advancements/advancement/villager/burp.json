@@ -6,8 +6,7 @@
     "title": "マナー講師が気にする",
     "description": "ポーションを早飲みしてゲップをする",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "announce_to_chat": false
   },
   "parent": "game_advancements:villager/welcome",
   "criteria": {

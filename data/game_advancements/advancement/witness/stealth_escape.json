@@ -8,8 +8,7 @@
       "text": "透明化の状態で脱出する"
     },
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "announce_to_chat": false
   },
   "parent": "game_advancements:witness/welcome",
   "criteria": {

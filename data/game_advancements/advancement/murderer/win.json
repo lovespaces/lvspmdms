@@ -6,8 +6,7 @@
     "title": "一件落着っと",
     "description": "ゲームで勝利する",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "announce_to_chat": false
   },
   "parent": "game_advancements:murderer/welcome",
   "criteria": {

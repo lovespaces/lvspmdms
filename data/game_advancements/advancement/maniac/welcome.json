@@ -6,8 +6,7 @@
     "title": "これで君も共犯者だ",
     "description": "狂人になる",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "announce_to_chat": false
   },
   "parent": "game_advancements:welcome",
   "criteria": {
