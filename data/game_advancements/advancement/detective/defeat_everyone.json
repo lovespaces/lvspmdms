@@ -5,8 +5,7 @@
     },
     "title": "崩壊は内側から起きる",
     "description": "全員誤射して人狼に勝たせる",
-    "frame": "challenge",
-    "hidden": true
+    "frame": "challenge"
   },
   "parent": "game_advancements:detective/defeat_villager",
   "criteria": {

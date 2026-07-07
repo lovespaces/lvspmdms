@@ -3,9 +3,9 @@
     "icon": {
       "id": "minecraft:wooden_sword"
     },
-    "title": "ラブスペ人狼",
+    "title": "Lovespaces' Murder Mystery",
     "description": "ラブスペ人狼に参加する",
-    "background": "minecraft:block/crimson_planks",
+    "background": "minecraft:block/black_wool",
     "frame": "task",
     "announce_to_chat": false
   },

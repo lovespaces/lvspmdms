@@ -5,8 +5,7 @@
     },
     "title": "誰がゲップをした?",
     "description": "透明の状態でゲップをする",
-    "frame": "goal",
-    "hidden": true
+    "frame": "goal"
   },
   "parent": "game_advancements:villager/burp",
   "criteria": {

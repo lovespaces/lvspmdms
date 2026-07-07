@@ -14,8 +14,7 @@
       ],
       "color": "yellow"
     },
-    "frame": "goal",
-    "hidden": true
+    "frame": "goal"
   },
   "parent": "game_advancements:villager/used_ironhorse",
   "criteria": {

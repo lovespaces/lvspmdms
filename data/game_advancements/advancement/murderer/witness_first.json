@@ -5,8 +5,7 @@
     },
     "title": "全てを把握している",
     "description": "最初に攻撃したプレイヤーが目撃者",
-    "frame": "goal",
-    "hidden": true
+    "frame": "goal"
   },
   "parent": "game_advancements:murderer/welcome",
   "criteria": {

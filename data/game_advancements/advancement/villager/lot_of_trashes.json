@@ -19,9 +19,7 @@
         }
       ]
     },
-    "frame": "goal",
-    "announce_to_chat": false,
-    "show_toast": false
+    "frame": "goal"
   },
   "parent": "game_advancements:villager/trash",
   "criteria": {

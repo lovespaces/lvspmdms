@@ -16,8 +16,7 @@
         }
       ]
     },
-    "frame": "challenge",
-    "hidden": true
+    "frame": "challenge"
   },
   "parent": "game_advancements:villager/totem",
   "criteria": {

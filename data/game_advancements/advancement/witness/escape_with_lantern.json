@@ -3,12 +3,16 @@
     "icon": {
       "id": "minecraft:blaze_powder"
     },
-    "title": "逃走中で賞金獲得するやつ",
+    "title": "すべての責任は俺が負う",
     "description": {
       "text": "[おぼろ灯]",
       "extra": [
         {
-          "text": " で身元が割れている状態で人狼を凶暴化させずに脱出する",
+          "text": " で身元が割れている状態で",
+          "color": "dark_purple"
+        },
+        {
+          "text": "\n人狼を凶暴化させずに脱出する",
           "color": "dark_purple"
         }
       ],

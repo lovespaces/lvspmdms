@@ -5,8 +5,7 @@
     },
     "title": "かすり傷一つ負わない",
     "description": "鍵を落とさず、刺されず、走らず、取引せずに脱出する",
-    "frame": "challenge",
-    "hidden": true
+    "frame": "challenge"
   },
   "parent": "game_advancements:villager/no_attack_lost",
   "criteria": {

@@ -7,8 +7,7 @@
     "description": {
       "text": "3回透明になってから脱出する"
     },
-    "frame": "goal",
-    "hidden": true
+    "frame": "goal"
   },
   "parent": "game_advancements:witness/stealth_escape",
   "criteria": {

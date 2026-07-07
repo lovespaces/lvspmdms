@@ -6,8 +6,7 @@
     "title": "偽造された切り傷",
     "description": "人狼のときに包帯を使う",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false
+    "hidden": true
   },
   "parent": "game_advancements:murderer/welcome",
   "criteria": {

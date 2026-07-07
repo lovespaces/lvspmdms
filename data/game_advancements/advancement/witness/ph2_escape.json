@@ -5,7 +5,7 @@
     },
     "title": "地雷系脱出",
     "description": "脱出して、人狼を凶暴化させる",
-    "frame": "goal",
+    "frame": "task",
     "hidden": true
   },
   "parent": "game_advancements:witness/welcome",

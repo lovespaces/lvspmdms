@@ -5,8 +5,7 @@
     },
     "title": "Any% Glitchless",
     "description": "3分以内に人狼を倒して勝利する",
-    "frame": "challenge",
-    "hidden": true
+    "frame": "challenge"
   },
   "parent": "game_advancements:detective/defeat_murder",
   "criteria": {

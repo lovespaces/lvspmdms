@@ -7,8 +7,7 @@
     "description": {
       "text": "ゲップをせずに透明になり、そのまま脱出し人狼を凶暴化させる"
     },
-    "frame": "challenge",
-    "hidden": true
+    "frame": "challenge"
   },
   "parent": "game_advancements:witness/stealth_escape",
   "criteria": {
