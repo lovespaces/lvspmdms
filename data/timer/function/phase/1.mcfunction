@@ -22,3 +22,5 @@ execute as @a[team=!spectator] run function ender_chest:key/
 
 execute as @a[team=innocent] run function escape:setup/
 execute as @a[team=witness] run function escape:setup/
+
+execute as @a[team=nothing] run function game:leave_game/not_joining
