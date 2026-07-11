@@ -6,3 +6,4 @@ execute store result storage lovespaces:mdms EscapeTemporary.Two float 1 run sco
 
 function log:escape/ with storage lovespaces:mdms EscapeTemporary
 function escape:storage/insert with storage lovespaces:mdms EscapeTemporary
+function escape:setup/give_paper with storage lovespaces:mdms EscTemp
