@@ -14,8 +14,6 @@ scoreboard players operation $Calc temporary -= $Online temporary
 
 execute if score $Calc temporary matches 1.. run function game:end/win/decrease
 
-# デバッグ用に計算に使ったスコアボードを表示するfunctionをソレを実行するためのtellraw設置
-
 execute if score $Dead stats < $HalfInnocent stats unless entity @a[team=murder] run return run function game:end/win/innocent
 
 execute if score $Mistake stats = $FixedAllInnocent stats run return run function game:end/win/special/all_mistake
