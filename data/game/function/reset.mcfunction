@@ -42,6 +42,9 @@ scoreboard players reset * used.splash
 
 scoreboard players reset * villager.escape_trade
 
+scoreboard players reset * xp.levels
+scoreboard players reset * xp.points
+
 bossbar set lovespaces:mdms_end_timer visible false
 
 team join nothing @a

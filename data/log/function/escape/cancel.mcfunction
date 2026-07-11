@@ -1,0 +1,2 @@
+tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"脱出の準備をキャンセルしました。", "color":"white"}]
+tellraw @a[team=spectator] [{"text": "[ラブスペ人狼] ", "color":"red"}, {"selector": "@s", "color": "yellow"}, {"text":" が脱出の準備を止めました", "color":"white"}]
