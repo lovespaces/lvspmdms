@@ -13,6 +13,8 @@ function escape:storage/update
 
 scoreboard objectives add temporary dummy
 scoreboard objectives add is_playing dummy
+# first_joinはリセットしません
+scoreboard objectives add first_join custom:play_time
 
 scoreboard objectives add be_spectator trigger "観戦者化"
 scoreboard players enable @a be_spectator

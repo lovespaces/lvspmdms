@@ -1,3 +1,4 @@
+# resetしませんが、first_joinがあります
 scoreboard players reset * armor_stand.ender_chest_id
 
 scoreboard players reset * stats
