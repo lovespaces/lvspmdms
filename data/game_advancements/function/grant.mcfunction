@@ -18,7 +18,7 @@ advancement grant @s[tag=adv.used_ironhorse] only game_advancements:villager/use
 advancement grant @s[tag=adv.oopsy_ironhorse] only game_advancements:villager/oopsy_ironhorse
 advancement grant @s[tag=adv.ironhorse.bow, tag=adv.ironhorse.knife] only game_advancements:villager/attacked_every_ironhorse
 advancement grant @s[tag=adv.not_key_lost, tag=adv.not_attack] only game_advancements:villager/no_attack_lost
-advancement grant @s[tag=adv.not_key_lost, tag=adv.not_attack, tag=adv.not_running, tag=adv.not_trade] only game_advancements:villager/no_attack_lost
+advancement grant @s[tag=adv.not_key_lost, tag=adv.not_attack, tag=adv.not_running, tag=adv.not_trade] only game_advancements:villager/no_everything
 
 # murderer
 advancement grant @s[tag=adv.lantern_witness] only game_advancements:murderer/soul_lantern
