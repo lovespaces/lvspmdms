@@ -4,6 +4,7 @@ scoreboard objectives add dropped.bandage dropped:feather
 scoreboard objectives add dropped.amulet dropped:iron_horse_armor
 scoreboard objectives add dropped.detonator dropped:redstone_torch
 scoreboard objectives add dropped.hopper dropped:hopper
+scoreboard objectives add dropped.paper dropped:paper
 scoreboard objectives add used.splash used:splash_potion
 scoreboard objectives add used.lingering used:lingering_potion
 
