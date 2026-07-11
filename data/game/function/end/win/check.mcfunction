@@ -14,14 +14,15 @@ scoreboard players operation $Calc temporary -= $Online temporary
 
 execute if score $Calc temporary matches 1.. run function game:end/win/decrease
 
-execute if score $Dead stats < $HalfInnocent stats unless entity @a[team=murder] run return run function game:end/win/innocent
+execute if score $Escaped stats >= $HalfInnocent stats run return run function game:end/win/innocent
+
+execute if score $Dead stats matches 0 unless entity @a[team=murder] run return run function game:end/win/innocent
+execute if score $HalfInnocent stats > $Dead stats unless entity @a[team=murder] run return run function game:end/win/innocent
 
 execute if score $Mistake stats = $FixedAllInnocent stats run return run function game:end/win/special/all_mistake
 
 execute if score $Mistake stats >= $HalfInnocent stats run return run function game:end/win/special/mistake
 
 execute if score $Escaped stats matches 0 run return run function game:end/win/special/all_killed
-
-execute if score $Escaped stats >= $HalfInnocent stats run return run function game:end/win/innocent
 
 execute if score $Dead stats >= $HalfInnocent stats run return run function game:end/win/murder
