@@ -28,9 +28,6 @@ scoreboard players set $ManiacNum temporary 0
 execute as @r[team=nothing] run function player:team/murder
 execute as @r[team=nothing] run function player:team/maniac
 
-# TODO: 後で消す
-tellraw @a[tag=Admin] [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"人狼と狂人の設定が終了しました", "color":"white"}]
-
 team join witness @r[team=nothing]
 team join detective @r[team=nothing]
 
@@ -49,5 +46,3 @@ tag @a[team=maniac] add BadGuys
 tag @a[team=detective] add Detective
 tag @a[team=witness] add Witness
 tag @a[team=innocent] add Innocent
-
-tag @a[team=witness] add adv.noph2escape
