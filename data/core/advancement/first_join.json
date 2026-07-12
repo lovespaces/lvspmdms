@@ -1,0 +1,10 @@
+{
+ "criteria": {
+   "requirement": {
+     "trigger": "minecraft:tick"
+   }
+ },
+ "rewards": {
+   "function": "core:before_game/first_join"
+ }
+}
