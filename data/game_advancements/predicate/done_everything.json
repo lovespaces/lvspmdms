@@ -10,14 +10,8 @@
         "game_advancements:detective/duplicate": true,
         "game_advancements:detective/rta": true,
         "game_advancements:murderer/perfect": true,
-        "game_advancements:villager/attacked_every_ironhorse": true,
-        "game_advancements:villager/burp_in_invis": true,
-        "game_advancements:villager/no_everything": true,
-        "game_advancements:villager/oopsy_ironhorse": true,
+        "game_advancements:murderer/uses_bandage": true,
         "game_advancements:villager/sign_early": true,
-        "game_advancements:villager/third_totem": true,
-        "game_advancements:witness/actual_stealth_escape": true,
-        "game_advancements:witness/more_stealth_escape": true,
         "game_advancements:witness/ph2_escape": true
       }
     }
