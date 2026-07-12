@@ -18,8 +18,7 @@ execute as @a at @s run playsound entity.ender_dragon.hurt master @s ~ ~ ~ 0.75
 give @a sweet_berries 3
 difficulty hard
 effect give @a[team=!spectator, team=!murder] hunger 2 255
-execute as @a[team=!spectator] run function ender_chest:key/
-
+execute as @a[team=!spectator] run give @s tripwire_hook[custom_name={"color":"gold","italic":false,"text":"チェストの鍵"},custom_data={CanOpen:[0]},custom_model_data={strings:["EnderChestKey"]},lore=[{"color":"gray","italic":false,"text":"エンダーチェストを開けるための鍵。"}]] 1
 execute as @a[team=innocent] run function escape:setup/
 execute as @a[team=witness] run function escape:setup/
 
