@@ -15,12 +15,12 @@ scoreboard players set $KnifeShortSeconds settings 60
 scoreboard players set $RoleEmerald settings 50
 scoreboard players set $RoleKey settings -1
 scoreboard players set $RoleTrash settings 100
-scoreboard players set $RoleLostKey settings 40
+scoreboard players set $RoleLostKey settings 5
 
 scoreboard players set $InnocentEmerald settings 40
 scoreboard players set $InnocentKey settings 70
 scoreboard players set $InnocentTrash settings 100
-scoreboard players set $InnocentLostKey settings 20
+scoreboard players set $InnocentLostKey settings 3
 
 scoreboard players set $MegaphoneTimeLimit settings 600
 scoreboard players set $MegaphoneInterval settings 400
