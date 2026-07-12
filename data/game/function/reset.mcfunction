@@ -77,4 +77,7 @@ scoreboard players reset * adv.secret1
 scoreboard players reset * adv.secret2
 scoreboard players reset * adv.secret3
 
+xp set @a 0 levels
+xp set @a 0 points
+
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]
