@@ -15,5 +15,6 @@ execute if predicate item:already_invis run tag @s add adv.wit.invis
 execute unless predicate item:already_invis run tag @s remove adv.actual_invis
 execute if score @s adv.drink_invis matches 3.. run tag @s add adv.wit.more_invis
 execute if score $Escaped stats >= $EscapeMinimum stats run tag @s remove adv.actual_invis
+execute if score $Escaped stats >= $EscapeMinimum stats run tag @s add adv.noph2escape
 execute if score $Escaped stats < $EscapeMinimum stats run function escape:check/failed/witness
 scoreboard players add $Escaped stats 1
