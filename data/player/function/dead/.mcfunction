@@ -1,3 +1,5 @@
+execute if entity @s[team=murder] run execute on attacker if entity @s[team=detective] run function game:end/win/special/murder_killed
+
 function summon:armor_stand/dead_body
 spawnpoint @s ^ ^ ^
 kill @s
