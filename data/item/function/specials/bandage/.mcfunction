@@ -11,5 +11,5 @@ scoreboard players remove @s bandage 1
 scoreboard players add @s attack 1
 
 function log:used {"item": "包帯"}
-execute at @s run playsound entity.player.levelup master @s ~ ~ ~
+execute at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"もう一回耐えられるようになった！", "color":"white"}]

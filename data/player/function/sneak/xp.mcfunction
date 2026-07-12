@@ -49,3 +49,5 @@ execute if score @s xp.levels matches 1.. run scoreboard players remove @s xp.le
 
 scoreboard players reset @s xp.levels
 scoreboard players reset @s xp.points
+
+stopsound @s master entity.player.levelup
