@@ -67,4 +67,14 @@ gamerule send_command_feedback true
 execute as @a run function ender_chest:reset
 execute as @a run function game_advancements:reset
 
+scoreboard players reset * adv.trashcount
+scoreboard players reset * adv.totemcount
+scoreboard players reset * adv.mur.kills
+scoreboard players reset * adv.arrowcount
+scoreboard players reset * adv.stopwatch
+scoreboard players reset * adv.drink_invis
+scoreboard players reset * adv.secret1
+scoreboard players reset * adv.secret2
+scoreboard players reset * adv.secret3
+
 tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"リセットが完了しました", "color":"yellow"}]
