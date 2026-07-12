@@ -7,3 +7,4 @@ execute if entity @s[tag=BadGuys] run return 0
 
 function log:mistake
 execute if entity @s[team=detective] run scoreboard players add $Mistake stats 1
+tag @a[team=detective] add adv.defeat_villager
