@@ -1,3 +1,5 @@
+tellraw @s {"text":"[ラブスペ人狼]", "color":"red"}
+tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"今回の役職割り当ては以下のとおりです。", "color":"white"}]
 function log:admin/role
 tellraw @s {"text":"[ラブスペ人狼]", "color":"red"}
 tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは現在観戦者です。", "color":"white"}]
