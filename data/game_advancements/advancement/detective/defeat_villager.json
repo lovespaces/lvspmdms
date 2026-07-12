@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:tipped_arrow"
     },
-    "title": "長年やってきた勘（はずれ）",
+    "title": "長年の勘（当たってない）",
     "description": "誤射する",
     "frame": "task",
     "announce_to_chat": false
