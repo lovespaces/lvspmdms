@@ -5,6 +5,8 @@ execute if entity @s[tag=player.HasIronHorseArmor] run return run function item:
 execute on attacker run clear @s firework_star
 
 execute if score $BombRemain bomb matches ..0 run return run function item:specials/bomb/failed
+execute if entity @s[tag=HasBomb] run return run execute on attacker run tellraw @s [{"text":"[ラブスペ人狼] " ,"color": "red"}, {"text":"この市民にはすでに爆弾が仕掛けられています。"}]
+execute if entity @s[team=murder] run execute on attacker if entity @s[team=murder] run return 0
 
 scoreboard players remove $BombRemain bomb 1
 tag @s add HasBomb
