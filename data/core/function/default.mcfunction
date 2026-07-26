@@ -13,6 +13,7 @@ scoreboard players set $KnifeSeconds settings 140
 scoreboard players set $KnifeShortSeconds settings 60
 scoreboard players set $BombPlayersMax settings 2
 scoreboard players set $BombButtonTick settings 140
+scoreboard players set $BombTimer settings 80
 
 scoreboard players set $RoleEmerald settings 50
 scoreboard players set $RoleKey settings -1

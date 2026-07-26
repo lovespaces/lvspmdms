@@ -1,5 +1,6 @@
 execute if score $Phase timer matches 0.. run function timer:phase/
 execute if score $SuddenDeath timer matches 0.. run function timer:sudden/
+execute if score $ExplodeBy timer.bomb matches 0.. run function timer:bomb/explode
 execute as @a[team=murder] if score @s timer.knife matches 0.. run function timer:knife/
 execute as @a[tag=QueueKey] if score @s timer.key matches 0.. run function timer:key/
 execute as @a[tag=QueueBombButton] if score @s timer.bomb matches 0.. run function timer:bomb/give_button

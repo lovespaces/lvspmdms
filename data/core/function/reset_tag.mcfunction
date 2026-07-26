@@ -13,6 +13,7 @@ tag @s remove Escaping
 tag @s remove CanEscape
 tag @s remove HasBomb
 tag @s remove QueueBombButton
+tag @s remove BombGuy
 
 tag @s remove Murder
 tag @s remove Maniac
