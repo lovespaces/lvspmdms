@@ -14,7 +14,4 @@ execute on attacker run tag @s add QueueBombButton
 execute on attacker run scoreboard players operation @s timer.bomb = $BombButtonTick settings
 
 function log:used {"item": "遠隔小型爆弾"}
-
-execute on attacker run tag @s add AttackTemporary
-function log:attacked {"weapon": "遠隔小型爆弾"}
-execute on attacker run tag @s remove AttackTemporary
+function player:attacked/ {"weapon": "ナイフ"}
