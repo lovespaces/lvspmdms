@@ -26,5 +26,7 @@ scoreboard players set $Escaped stats 0
 
 scoreboard players set @a[team=!spectator] villager.escape_trade 0
 
+scoreboard players operation $BombRemain bomb = $BombPlayersMax settings
+
 function ender_chest:armor_stand/
 function ender_chest:roll/setup
