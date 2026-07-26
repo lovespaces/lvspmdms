@@ -4,5 +4,6 @@ scoreboard objectives add timer.key dummy
 scoreboard objectives add timer.totem dummy
 scoreboard objectives add timer.iron_horse dummy
 scoreboard objectives add timer.megaphone dummy
+scoreboard objectives add timer.bomb dummy
 
 scoreboard players set $Tick timer 20

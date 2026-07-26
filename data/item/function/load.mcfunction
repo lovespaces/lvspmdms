@@ -10,4 +10,6 @@ scoreboard objectives add used.lingering used:lingering_potion
 
 scoreboard objectives add bandage dummy
 
+scoreboard objectives add bomb dummy
+
 scoreboard objectives add temporary.copper_chest dummy
