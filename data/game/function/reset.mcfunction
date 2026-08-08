@@ -59,6 +59,7 @@ kill @e[type=item]
 
 effect clear @a
 execute as @a run attribute @s attack_speed base set 1024
+execute as @a run attribute @s max_health base set 20
 difficulty peaceful
 
 gamerule show_advancement_messages true
