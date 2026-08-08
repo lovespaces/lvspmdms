@@ -11,6 +11,11 @@ scoreboard players set @a[team=witness] attack 0
 
 scoreboard players set @a[team=spectator] stats 1
 
+execute as @a[team=innocent] run attribute @s max_health base set 4.0
+execute as @a[tag=BadGuys] run attribute @s max_health base set 4.0
+execute as @a[team=detective] run attribute @s max_health base set 6.0
+execute as @a[team=witness] run attribute @s max_health base set 2.0
+
 scoreboard players set $Phase stats 0
 scoreboard players set $Escaped stats 0
 scoreboard players set $Tick timer 20
