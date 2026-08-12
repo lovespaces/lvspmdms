@@ -1,5 +1,5 @@
 scoreboard players reset @s dropped.dead_report
-clear @s name_tag
+clear @s book
 kill @e[type=item, sort=nearest, limit=1]
 function log:used {"item": "インシデント・レポート"}
 
