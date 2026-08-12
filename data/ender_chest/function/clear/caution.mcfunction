@@ -1,2 +1,4 @@
 clear @s barrier
 item replace entity @s enderchest.13 with barrier[custom_name={"color":"yellow","italic":false,"text":"取得不可"},lore=[{"color":"gray","italic":false,"text":"現在、このエンダーチェストから"},{"color":"gray","italic":false,"text":"アイテムを入手することはできません。"}," ",{"color":"yellow","italic":false,"text":"[チェストの鍵] "},{"color":"gray","italic":false,"text":"(トリップワイヤーフックのテクスチャ) を持ったままチェストを開けてください。"}]] 1
+tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"あなたは現在 ", "color": "white"}, {"text":"[チェストの鍵]", "color":"yellow"}, {"text":" を持っていない状態でチェストを開けています。", "color":"white"}]
+tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"[チェストの鍵]", "color":"yellow"}, {"text":" を持たない限り、チェストのアイテムを取ることができません。"}]
