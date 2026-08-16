@@ -3,8 +3,8 @@ execute unless score $Phase stats matches 1..2 run return 0
 execute on attacker if entity @s[tag=IronHorse] run return run function player:iron_horse
 
 execute on attacker run clear @s iron_sword
-execute at @s run playsound entity.item.break master @a ~ ~ ~
-execute at @s run particle item{item:{id:bow}} ~ ~1 ~ 0.25 0.25 0.25 0 5
+execute on attacker at @s run playsound entity.item.break master @a ~ ~ ~
+execute on attacker at @s run particle item{item:{id:bow}} ~ ~1 ~ 0.25 0.25 0.25 0 5
 
 # 身内切りはやばいのでここでreturn
 execute if entity @s[team=murder] run return 0
