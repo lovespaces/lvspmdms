@@ -16,7 +16,9 @@ function player:attacked/ {"weapon": "ナイフ"}
 
 execute if entity @s[tag=IronHorse] run tag @s add adv.ironhorse.knife
 execute if entity @s[tag=IronHorse] run return run execute on attacker at @s run function item:specials/amulet/attacked
-execute if items entity @s weapon.* totem_of_undying[custom_data={"MdmsItem":true,"Totem":true}] run return run function item:specials/totem/
+execute if items entity @s weapon.* totem_of_undying[custom_data={"MdmsItem":true,"Totem":true}] run function item:specials/totem/
+
+execute if entity @s[tag=UsedTotem] run return 0
 
 function player:attacked/health
 
