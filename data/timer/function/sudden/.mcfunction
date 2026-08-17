@@ -1,8 +1,8 @@
 execute store result bossbar lovespaces:mdms_end_timer value run scoreboard players remove $SuddenDeath timer 1
 
-execute if score $SuddenDeath timer matches 1200 run tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"終了まで、残り 1分", "color":"white"}]
-execute if score $SuddenDeath timer matches 600 run tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"終了まで、残り 30秒", "color":"white"}]
-execute if score $SuddenDeath timer matches 300 run tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"終了まで、残り 15秒", "color":"white"}]
+execute if score $SuddenDeath timer matches 1200 run tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"終了まで、残り 1分", "color":"white"}]
+execute if score $SuddenDeath timer matches 600 run tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"終了まで、残り 30秒", "color":"white"}]
+execute if score $SuddenDeath timer matches 300 run tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"終了まで、残り 15秒", "color":"white"}]
 
 execute unless score $SuddenDeath timer matches ..200 run return 0
 scoreboard players add $SFXTick timer 1

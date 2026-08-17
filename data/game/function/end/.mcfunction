@@ -7,10 +7,10 @@ effect clear @a
 clear @a
 function game:reset
 
-tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"text":"ゲームが正常に終了しました", "color":"white"}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"ゲームが正常に終了しました", "color":"white"}]
 
 execute as @a at @s run function tp:lobby
-tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"color":"white", "text":"ロビーに移動しました"}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"ロビーに移動しました"}]
 function admin:give/
 scoreboard objectives setdisplay sidebar settings
 

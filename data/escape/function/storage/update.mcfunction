@@ -7,4 +7,4 @@ data modify storage lovespaces:mdms EscapeItems append value {"translate": "item
 data modify storage lovespaces:mdms EscapeItems append value {"translate": "item", "id": "prismarine_shard"}
 data modify storage lovespaces:mdms EscapeItems append value {"translate": "item", "id": "heart_of_the_sea"}
 
-tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"EscapeItemsを設定しました", "color":"white"}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"EscapeItemsを設定しました", "color":"white"}]

@@ -4,4 +4,4 @@ item replace entity @a[tag=Admin] hotbar.2 with paper[custom_name={"color":"yell
 item replace entity @a[tag=Admin] hotbar.3 with paper[custom_name={"color":"yellow","italic":false,"text":"参加者の取得"},lore=[[{"text": "", "italic":false},{"color":"gold","text":"[投] "},{"color":"white","text":"現在の観戦者／参加者を取得する紙"}]],custom_data={IsGetMember:1b},enchantment_glint_override=true] 1
 item replace entity @a[tag=Admin] hotbar.4 with paper[custom_name={"color":"yellow","italic":false,"text":"役職数の取得"},lore=[[{"text": "", "italic":false},{"color":"gold","text":"[投] "},{"color":"white","text":"役職の数を取得する紙"}]],custom_data={GetRoles:1b},enchantment_glint_override=true] 1
 
-tellraw @a[tag=Admin] [{"color":"red","text":"[ラブスペ人狼] "},{"color":"white","text":"管理者用アイテムを付与しました"}]
+tellraw @a[tag=Admin] [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true},{"color":"white","text":"管理者用アイテムを付与しました"}]

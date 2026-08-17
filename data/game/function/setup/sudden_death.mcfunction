@@ -10,5 +10,5 @@ title @a times 0s 5s 1s
 title @a title [{"text":"サドンデス開始", "color":"red"}]
 title @a subtitle [{"text":"1分30秒後、ゲームが強制終了します"}]
 
-tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"color":"white", "text":"生存者が残り僅かになったため、サドンデスを開始しました。"}]
-tellraw @a [{"text":"[ラブスペ人狼] ", "color":"red"}, {"color":"white", "text":"1分30秒後までにゲームが終了しない場合は、"}, {"color": "white", "text":"マップ内の生存者（探偵・黒側を除く）が全員死亡し、ゲームが強制終了します。", "bold": true}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"生存者が残り僅かになったため、サドンデスを開始しました。"}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"1分30秒後までにゲームが終了しない場合は、"}, {"color": "white", "text":"マップ内の生存者（探偵・黒側を除く）が全員死亡し、ゲームが強制終了します。", "bold": true}]

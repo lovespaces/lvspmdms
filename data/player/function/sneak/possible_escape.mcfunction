@@ -7,6 +7,6 @@ execute unless score @s temporary matches 1 run return run function log:escape/y
 
 tag @s add adv.secret3.escape
 execute at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 2
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"脱出できるようになった！何も持たずに看板を押して脱出しよう", "color":"white"}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"脱出できるようになった！何も持たずに看板を押して脱出しよう", "color":"white"}]
 
 execute if score $Escaped stats < $EscapeMinimum stats if entity @s[team=witness] run function log:tips/dont_escape_early

@@ -4,7 +4,7 @@ kill @e[type=item, sort=nearest, limit=1]
 clear @s feather
 
 function log:used {"item": "おぼろ灯"}
-tellraw @s [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"光の中から人が見えてくる..."}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"光の中から人が見えてくる..."}]
 
 execute store result score @s temporary run random value 0..100
 

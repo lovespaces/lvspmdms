@@ -11,7 +11,7 @@ execute if entity @s[team=murder] run return 0
 # ナイフが握れないときは何もできない
 execute on attacker if entity @s[tag=NoKnife] run return 0
 execute as @a[team=murder] run tag @s add NoKnife
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"誰かに刺された！", "color":"white"}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"誰かに刺された！", "color":"white"}]
 function player:attacked/ {"weapon": "ナイフ"}
 
 execute if entity @s[tag=IronHorse] run tag @s add adv.ironhorse.knife

@@ -2,7 +2,7 @@ advancement revoke @s only item:craft_copper_chest
 clear @s copper_chest
 execute unless entity @s[tag=BadGuys] run return run give @s emerald 1
 
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"エメラルドを使ってアイテムを入手した。", "color":"white"}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"エメラルドを使ってアイテムを入手した。", "color":"white"}]
 
 execute store result score @s temporary.copper_chest run random value 1..100
 

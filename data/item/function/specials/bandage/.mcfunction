@@ -12,4 +12,4 @@ scoreboard players add @s attack 1
 
 function log:used {"item": "包帯"}
 execute at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"もう一回耐えられるようになった！", "color":"white"}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"もう一回耐えられるようになった！", "color":"white"}]

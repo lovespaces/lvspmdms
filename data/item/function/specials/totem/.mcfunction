@@ -1,8 +1,8 @@
 execute if score @s attack matches 1.. run return run function item:specials/totem/failed
 function log:used {"item":"神秘的なお守り"}
 effect give @s instant_damage 1 2
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"お守りの影響で死を免れた！", "color":"white"}]
-execute on attacker run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"お守りの影響で攻撃が防がれたようだ。", "color":"white"}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"お守りの影響で死を免れた！", "color":"white"}]
+execute on attacker run tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"お守りの影響で攻撃が防がれたようだ。", "color":"white"}]
 scoreboard players set @s timer.totem 40
 tag @s add UsedTotem
 

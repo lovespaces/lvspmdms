@@ -1,1 +1,1 @@
-$tellraw @a[team=spectator] [{"color":"red","text":"[ラブスペ人狼] "},{"color":"yellow","selector":"@a[tag=AttackTemporary]"},{"color":"white","text":" → "},{"color":"yellow","selector":"@s"},{"color":"white","text":" ($(weapon))"}]
+$tellraw @a[team=spectator] [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true},{"color":"yellow","selector":"@a[tag=AttackTemporary]"},{"color":"white","text":" → "},{"color":"yellow","selector":"@s"},{"color":"white","text":" ($(weapon))"}]

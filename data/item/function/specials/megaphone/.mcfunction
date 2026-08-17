@@ -9,5 +9,5 @@ kill @e[type=item, sort=nearest, limit=1]
 function log:used {"item": "メガホン"}
 tag @s add UsingHopper
 execute at @s run playsound block.dispenser.dispense master @s ~ ~ ~
-tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"一度だけみんなに伝達ができるようになった。30秒以内に伝えたいことを入力しよう", "color":"white"}]
+tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"一度だけみんなに伝達ができるようになった。30秒以内に伝えたいことを入力しよう", "color":"white"}]
 scoreboard players operation @s timer.megaphone = $MegaphoneTimeLimit settings

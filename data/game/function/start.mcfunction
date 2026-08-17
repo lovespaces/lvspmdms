@@ -14,7 +14,7 @@ execute if score $IsNearVoice settings matches 1.. run function game:setup/nearc
 
 scoreboard players set @a is_playing 1
 function log:role/start
-tellraw @a [{"color":"red", "text":"[ラブスペ人狼] "}, {"color":"white", "text":"15秒後にゲームが始まります。"}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"15秒後にゲームが始まります。"}]
 
 function player:team
 function game:setup/scoreboard

@@ -18,4 +18,4 @@ execute on attacker if entity @s[team=detective] run return 0
 execute on attacker if entity @s[team=maniac] if entity @a[team=detective] run return 0
 execute on attacker run tag @s remove CanBuyBow
 execute on attacker run tag @s remove CanShootPlayers
-execute on attacker run tellraw @s [{"text":"[ラブスペ人狼] ", "color":"red"}, {"text":"弓を打つことができなくなった", "color":"white"}]
+execute on attacker run tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"弓を打つことができなくなった", "color":"white"}]
