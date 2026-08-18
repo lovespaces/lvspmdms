@@ -3,7 +3,7 @@ scoreboard players set $MurderNum settings 1
 scoreboard players set $ManiacNum settings 1
 
 scoreboard players set $KeySeconds settings 60
-scoreboard players set $MaxOpenKey settings 9
+scoreboard players set $MaxOpenKey settings 11
 scoreboard players set $CrystallBall settings 20
 scoreboard players set $HowManyTrashes settings 3
 scoreboard players set $HowManyEscapeTrades settings 3
