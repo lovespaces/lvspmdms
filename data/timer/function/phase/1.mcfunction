@@ -15,7 +15,6 @@ scoreboard players set $Phase stats 1
 function log:role/reveal
 execute as @a at @s run playsound entity.ender_dragon.hurt master @s ~ ~ ~ 0.75
 
-give @a sweet_berries 3
 difficulty hard
 effect give @a[team=!spectator, team=!murder] hunger 2 255
 execute as @a[team=!spectator] run give @s tripwire_hook[custom_name={"color":"gold","italic":false,"text":"チェストの鍵"},custom_data={CanOpen:[0]},custom_model_data={strings:["EnderChestKey"]},lore=[{"color":"gray","italic":false,"text":"エンダーチェストを開けるための鍵。"}]] 1
@@ -29,3 +28,5 @@ execute as @a[team=innocent] run attribute @s max_health base set 4.0
 execute as @a[tag=BadGuys] run attribute @s max_health base set 4.0
 execute as @a[team=detective] run attribute @s max_health base set 6.0
 execute as @a[team=witness] run attribute @s max_health base set 2.0
+
+give @a sweet_berries 3
