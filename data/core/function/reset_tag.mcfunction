@@ -11,6 +11,7 @@ tag @s remove QueueKey
 tag @s remove UsedTotem
 tag @s remove Escaping
 tag @s remove CanEscape
+tag @s remove SneakingWithBow
 
 tag @s remove Murder
 tag @s remove Maniac
