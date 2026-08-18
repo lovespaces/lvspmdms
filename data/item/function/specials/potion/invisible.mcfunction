@@ -3,7 +3,7 @@ clear @s potion[custom_data={MdmsItem:true, Invisible:true}]
 
 execute if predicate item:already_invis run tag @s add adv.more_burp
 
-execute at @s run playsound entity.player.burp master @a ~ ~ ~
+execute at @s run playsound entity.player.burp master @a ~ ~ ~ 1.5
 effect give @s invisibility 15 2
 tag @s add adv.burp
 tag @s remove adv.actual_invis
