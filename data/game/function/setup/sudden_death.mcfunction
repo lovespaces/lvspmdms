@@ -5,6 +5,7 @@ execute store result bossbar lovespaces:mdms_end_timer value run scoreboard play
 bossbar set lovespaces:mdms_end_timer players @a
 bossbar set lovespaces:mdms_end_timer visible true
 scoreboard players operation $SuddenDeath timer = $SuddenDeathTick settings
+scoreboard players set $IsSuddenDeath stats 1
 
 title @a times 0s 5s 1s
 title @a title [{"text":"サドンデス開始", "color":"red"}]

@@ -4,5 +4,5 @@ execute if entity @s[tag=Murder] run return 0
 
 scoreboard players reset $SFXTick timer
 scoreboard players remove $AllInnocent stats 1
-execute if score $SuddenDeath timer matches 0.. run return 0
+execute if score $IsSuddenDeath stats matches 0.. run return 0
 execute if score $AllInnocent stats <= $MinimumSudden stats run function game:setup/sudden_death
