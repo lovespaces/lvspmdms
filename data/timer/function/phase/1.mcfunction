@@ -30,3 +30,5 @@ execute as @a[team=detective] run attribute @s max_health base set 6.0
 execute as @a[team=witness] run attribute @s max_health base set 2.0
 
 give @a sweet_berries 3
+
+recipe give @a[tag=BadGuys] item:fake_escape

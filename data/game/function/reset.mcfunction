@@ -68,6 +68,8 @@ gamerule send_command_feedback true
 execute as @a run function ender_chest:reset
 execute as @a run function game_advancements:reset
 
+recipe take @a *
+
 scoreboard players reset * adv.trashcount
 scoreboard players reset * adv.totemcount
 scoreboard players reset * adv.mur.kills

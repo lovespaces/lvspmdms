@@ -38,6 +38,7 @@ gamerule spawn_wandering_traders false
 gamerule spawn_wardens false
 gamerule spawner_blocks_work false
 gamerule locator_bar false
+gamerule limited_crafting true
 
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"読み込みが終わりました", "color":"white"}]
 tellraw @a " "
