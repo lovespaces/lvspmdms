@@ -11,6 +11,7 @@ scoreboard players set $MinimumLostEms settings 4
 scoreboard players set $EscapeSneaks settings 120
 scoreboard players set $KnifeSeconds settings 140
 scoreboard players set $KnifeShortSeconds settings 60
+scoreboard players set $MurderInvisLimit settings 60
 
 scoreboard players set $RoleEmerald settings 70
 scoreboard players set $RoleKey settings -1

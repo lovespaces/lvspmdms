@@ -22,6 +22,7 @@ scoreboard players reset * timer.key
 scoreboard players reset * timer.knife
 scoreboard players reset * timer.totem
 scoreboard players reset * timer.megaphone
+scoreboard players reset * timer.invis
 
 scoreboard players reset * bandage
 scoreboard players reset * attack
