@@ -20,9 +20,9 @@ team modify witness nametagVisibility never
 team modify innocent nametagVisibility never
 team modify murder seeFriendlyInvisibles true
 team modify maniac seeFriendlyInvisibles true
-team modify detective seeFriendlyInvisibles true
-team modify witness seeFriendlyInvisibles true
-team modify innocent seeFriendlyInvisibles true
+team modify detective seeFriendlyInvisibles false
+team modify witness seeFriendlyInvisibles false
+team modify innocent seeFriendlyInvisibles false
 team modify murder collisionRule never
 team modify maniac collisionRule never
 team modify detective collisionRule never
