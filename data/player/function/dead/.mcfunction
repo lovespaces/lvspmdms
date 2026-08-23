@@ -6,6 +6,7 @@ kill @s
 clear @s
 tag @s add Dead
 tag @s remove nearChat
+scoreboard players set @s is_playing 2
 scoreboard players add $Dead stats 1
 execute if entity @s[tag=!BadGuys] run scoreboard players add $DeadInnocent stats 1
 scoreboard players remove $AllPlayers stats 1

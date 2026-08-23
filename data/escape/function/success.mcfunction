@@ -2,6 +2,7 @@ gamemode spectator @s
 function log:escape/success
 team join spectator @s
 tag @s add Escaped
+scoreboard players set @s is_playing 2
 
 scoreboard players add $Escaped stats 1
 scoreboard players remove $AllPlayers stats 1
