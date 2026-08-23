@@ -18,11 +18,11 @@ execute if entity @s[tag=IronHorse] run tag @s add adv.ironhorse.knife
 execute if entity @s[tag=IronHorse] run return run execute on attacker at @s run function item:specials/amulet/attacked
 execute if items entity @s weapon.* totem_of_undying[custom_data={"MdmsItem":true,"Totem":true}] run function item:specials/totem/
 
+execute on attacker run effect give @s slowness 3 2
+execute on attacker run function player:attacked/is_final_phase
+
 execute if entity @s[tag=UsedTotem] run return 0
 
 function player:attacked/health
-
-execute on attacker run effect give @s slowness 3 2
-execute on attacker run function player:attacked/is_final_phase
 
 effect give @s blindness 5 2
