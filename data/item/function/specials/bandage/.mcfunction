@@ -10,6 +10,10 @@ execute if score @s bandage matches ..0 run return run function item:specials/ba
 scoreboard players remove @s bandage 1
 scoreboard players add @s attack 1
 
+execute if score @s attack matches 2 run attribute @s max_health base set 6.0
+execute if score @s attack matches 1 run attribute @s max_health base set 4.0
+effect give @s minecraft:instant_health 1 2
+
 function log:used {"item": "包帯"}
 execute at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"もう一回耐えられるようになった！", "color":"white"}]
