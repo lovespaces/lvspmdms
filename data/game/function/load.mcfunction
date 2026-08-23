@@ -8,6 +8,7 @@ team add innocent
 team add spectator
 team add nothing
 
+team modify nothing friendlyFire false
 team modify murder friendlyFire true
 team modify maniac friendlyFire true
 team modify detective friendlyFire true
