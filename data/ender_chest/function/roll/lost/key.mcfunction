@@ -4,4 +4,5 @@ tellraw @s [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人
 
 tag @s remove adv.not_key_lost
 tag @s remove QueueKey
+tag @s add LostKey
 scoreboard players set @s timer.key -1
