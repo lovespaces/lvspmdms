@@ -12,6 +12,8 @@ scoreboard players set $EscapeSneaks settings 120
 scoreboard players set $KnifeSeconds settings 140
 scoreboard players set $KnifeShortSeconds settings 60
 scoreboard players set $MurderInvisLimit settings 60
+scoreboard players set $KeyDurabilityMin settings 8
+scoreboard players set $KeyDurabilityMax settings 16
 
 scoreboard players set $RoleEmerald settings 70
 scoreboard players set $RoleKey settings -1

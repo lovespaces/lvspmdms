@@ -6,3 +6,4 @@ tag @s remove adv.not_key_lost
 tag @s remove QueueKey
 tag @s add LostKey
 scoreboard players set @s timer.key -1
+scoreboard players set @s key.durability -1

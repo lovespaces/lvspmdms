@@ -1,0 +1,1 @@
+$execute store result score @s key.durability run random value $(Min)..$(Max)

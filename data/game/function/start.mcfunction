@@ -8,6 +8,9 @@ team join spectator @a[tag=Spectator]
 effect give @a resistance infinite 255 true
 effect clear @a[team=spectator]
 
+execute store result storage lovespaces:mdms KeyDurability.Min int 1 run scoreboard players get $KeyDurabilityMin settings
+execute store result storage lovespaces:mdms KeyDurability.Max int 1 run scoreboard players get $KeyDurabilityMax settings
+
 gamemode adventure @a
 gamemode spectator @a[team=spectator]
 execute if score $IsNearVoice settings matches 1.. run function game:setup/nearchat
