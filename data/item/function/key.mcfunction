@@ -1,2 +1,2 @@
 execute unless items entity @s hotbar.0 * run return run give @s tripwire_hook[custom_name={"color":"gold","italic":false,"text":"チェストの鍵"},custom_data={CanOpen:[0]},custom_model_data={strings:["EnderChestKey"]},lore=[{"color":"gray","italic":false,"text":"エンダーチェストを開けるための鍵。"}]] 1
-item replace entity @s hotbar.0 with tripwire_hook[custom_name={"color":"gold","italic":false,"text":"チェストの鍵"},custom_data={CanOpen:[0]},custom_model_data={strings:["EnderChestKey"]},lore=[{"color":"gray","italic":false,"text":"エンダーチェストを開けるための鍵。"}]] 1
+give @s tripwire_hook[custom_name={"color":"gold","italic":false,"text":"チェストの鍵"},custom_data={CanOpen:[0]},custom_model_data={strings:["EnderChestKey"]},lore=[{"color":"gray","italic":false,"text":"エンダーチェストを開けるための鍵。"}]] 1
