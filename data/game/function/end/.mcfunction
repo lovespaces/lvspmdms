@@ -11,6 +11,7 @@ tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人
 
 execute as @a at @s run function tp:lobby
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"ロビーに移動しました"}]
+function item:before/paper
 function admin:give/
 scoreboard objectives setdisplay sidebar settings
 

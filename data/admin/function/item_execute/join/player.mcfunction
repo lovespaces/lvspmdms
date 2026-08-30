@@ -1,0 +1,2 @@
+execute if entity @s[tag=!Spectator] run return run function admin:item_execute/join/tag {"method": "add"}
+execute if entity @s[tag=Spectator] run return run function admin:item_execute/join/tag {"method": "remove"}

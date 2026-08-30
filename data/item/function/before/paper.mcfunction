@@ -1,0 +1,1 @@
+item replace entity @a hotbar.0 with paper[custom_name={"color":"yellow","italic":false,"text":"参加切り替え"},lore=[[{"text": "", "italic":false},{"color":"gold","text":"[投] "},{"color":"white","text":"参加・不参加を切り替える"}]],custom_data={IsJoinPaper:1b},enchantment_glint_override=true] 1
