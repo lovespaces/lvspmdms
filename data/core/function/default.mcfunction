@@ -1,6 +1,8 @@
 # ワールド内でいじれる数値たち
 scoreboard players set $MurderNum settings 1
 scoreboard players set $ManiacNum settings 1
+scoreboard players set $DetectiveNum settings 1
+scoreboard players set $WitnessNum settings 1
 
 scoreboard players set $KeySeconds settings 60
 scoreboard players set $MaxOpenKey settings 12
