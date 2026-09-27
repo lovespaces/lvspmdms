@@ -1,0 +1,1 @@
+$execute store result score $RandomizeRoll temporary run random value 1..$(RandomizeRoll)
