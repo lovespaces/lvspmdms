@@ -1,0 +1,1 @@
+$data modify block ~ ~ ~ front_text.messages[2].click_event.command set value "/scoreboard players $(action) $$(name)Num settings 1"
