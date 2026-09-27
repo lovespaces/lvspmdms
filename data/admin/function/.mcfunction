@@ -4,3 +4,4 @@ execute if data entity @s Item.components.minecraft:custom_data.IsVoiceSetting r
 execute if data entity @s Item.components.minecraft:custom_data.GetVoiceSetting run function admin:item_execute/get_voice_setting
 execute if data entity @s Item.components.minecraft:custom_data.IsGetMember run function admin:item_execute/get_member
 execute if data entity @s Item.components.minecraft:custom_data.GetRoles run function admin:item_execute/get_roles
+execute if data entity @s Item.components.minecraft:custom_data.EditRolesNumber run function admin:item_execute/edit_roles_number
