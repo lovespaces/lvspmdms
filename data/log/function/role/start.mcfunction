@@ -2,6 +2,6 @@ tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"役職の人数は以下の通りです。", "color":"white"}]
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"人狼の数: ", "color":"white"}, {"score":{"name":"$MurderNum", "objective":"settings"}, "color":"red"}]
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"狂人の数: ", "color":"white"}, {"score":{"name":"$ManiacNum", "objective":"settings"}, "color":"dark_purple"}]
-tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"探偵の数: ", "color":"white"}]
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"探偵の数: ", "color":"white"}, {"score":{"name":"$DetectiveNum", "objective":"settings"}, "color":"aqua"}]
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"目撃者の数: ", "color":"white"}, {"score":{"name":"$WitnessNum", "objective":"settings"}, "color":"gray"}]
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"", "color":"white"}]
