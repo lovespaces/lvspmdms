@@ -46,6 +46,16 @@ scoreboard players reset * villager.escape_trade
 scoreboard players reset * xp.levels
 scoreboard players reset * xp.points
 
+scoreboard players set $Total roll.murder 0
+scoreboard players set $Total roll.maniac 0
+scoreboard players set $Total roll.detective 0
+scoreboard players set $Total roll.witness 0
+
+scoreboard players set $TempTotal roll.murder 0
+scoreboard players set $TempTotal roll.maniac 0
+scoreboard players set $TempTotal roll.detective 0
+scoreboard players set $TempTotal roll.witness 0
+
 bossbar set lovespaces:mdms_end_timer visible false
 
 team join nothing @a
