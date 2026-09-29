@@ -9,12 +9,15 @@ scoreboard players set $MurderNum temporary 0
 scoreboard players set $ManiacNum temporary 0
 scoreboard players set $DetectiveNum temporary 0
 scoreboard players set $WitnessNum temporary 0
+
 function player:team/murder
 function player:team/maniac
 function player:team/detective
 function player:team/witness
 team join innocent @a[team=nothing]
 tag @a[team=innocent] add Innocent
+
+function player:team/weight/add
 
 execute store result score $AllInnocent stats if entity @a[team=!murder, team=!detective, team=!maniac, team=!spectator]
 scoreboard players operation $FixedAllInnocent stats = $AllInnocent stats
