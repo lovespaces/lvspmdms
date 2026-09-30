@@ -39,6 +39,3 @@ scoreboard players operation $EscapeMinimum stats /= $Calc temporary
 
 scoreboard players set $MinimumSudden stats 1
 execute if score $AllInnocent stats matches 5.. run scoreboard players add $MinimumSudden stats 1
-
-execute unless entity @a[team=detective] run tag @a[team=!spectator] add CanBuyBow
-execute unless entity @a[team=detective] run tag @a[team=!spectator] add CanShootPlayers

@@ -22,6 +22,10 @@ tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人
 
 function player:team
 function game:setup/scoreboard
+
+function game:setup/is_detective
+function game:setup/is_witness
+
 scoreboard players set $Phase stats 0
 scoreboard players set $Phase timer 300
 scoreboard objectives setdisplay sidebar
