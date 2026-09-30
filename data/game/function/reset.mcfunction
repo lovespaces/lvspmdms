@@ -37,6 +37,7 @@ scoreboard players reset * dropped.crystall_ball
 scoreboard players reset * dropped.dead_report
 scoreboard players reset * dropped.detonator
 scoreboard players reset * dropped.hopper
+scoreboard players reset * dropped.paper
 
 scoreboard players reset * used.lingering
 scoreboard players reset * used.splash
