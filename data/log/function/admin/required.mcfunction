@@ -1,0 +1,2 @@
+tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"text":"人狼", "color":"red"}, {"text":"の人数が0人に設定されているためゲームを始めることができません。"}]
+execute as @a at @s run playsound entity.enderman.teleport master @s ~ ~ ~
