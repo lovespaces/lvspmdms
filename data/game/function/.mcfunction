@@ -8,7 +8,5 @@ execute if score $Phase stats matches ..1 unless entity @a[team=witness] run fun
 execute unless score $IsDetectiveDead stats matches 1.. unless entity @a[team=detective] run function player:dead/detective
 execute unless entity @a[team=murder] run function game:end/win/is_gone
 
-execute as @a[team=!spectator] run function ender_chest:clear/
-execute as @a[team=!spectator] run function ender_chest:
-execute as @a[team=!spectator] run function player:
+execute as @a[team=!spectator] run function game:player_tick
 function item:
