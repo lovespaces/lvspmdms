@@ -15,6 +15,7 @@ tag @s remove SneakingWithBow
 tag @s remove HasInvisTimer
 tag @s remove LostKey
 tag @s remove KilledMurder
+tag @s remove LanternTemporary
 
 tag @s remove Murder
 tag @s remove Maniac
