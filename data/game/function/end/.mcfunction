@@ -15,4 +15,3 @@ function item:before/paper
 function admin:give/
 
 team join nothing @a
-scoreboard players enable @a be_spectator
