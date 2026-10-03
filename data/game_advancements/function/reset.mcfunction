@@ -41,3 +41,5 @@ tag @s remove adv.wit.more_invis
 
 # secret
 tag @s remove adv.secret3.escape
+
+tag @s remove adv.grant
