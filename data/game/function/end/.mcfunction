@@ -11,7 +11,7 @@ tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人
 
 execute as @a at @s run function tp:lobby
 tellraw @a [{"text": "", "bold": false}, {"color":"red","text":"[ラブスペ人狼] ", "bold": true}, {"color":"white", "text":"ロビーに移動しました"}]
-function item:before/paper
-function admin:give/
+execute as @a run function item:before/paper
+execute as @a[tag=Admin] run function admin:give/
 
 team join nothing @a
